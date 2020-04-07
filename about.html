@@ -5,29 +5,24 @@
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>Kamala Prasai - UX Designer</title>
      <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" href="css/aboutme.css">
+     <link rel="stylesheet" href="css/about.css">
      <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
    </head>
    <body>
-     <nav class="navbar">
-         <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
-         <img class="logo" src="images/logo.png">
-         <ul class="main-nav" id="js-menu">
-           <li>
-             <a href="index.html#Project" class="nav-links">Project</a>
-           </li>
-           <li>
-             <a href="about.html" class="nav-links">About</a>
-           </li>
-           <li>
-             <a href="contact.html" class="nav-links">Contact</a>
-           </li>
+     <header>
+       <section class="container">
+       <img class="logo" src="images/logo.png" alt="logo">
+      <nav>
+        <ul class= "nav-links">
+          <li><a href="#">Project</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
          </ul>
        </nav>
        <!--header-->
+       <section class="picture">
        <img class="picture" src="images/picture.png">
-       <section class="Here’s a little bit about me…">
-         </section>
+     </section>
 
        <section class="about me">
            <h1>Here’s a little bit about me…</h1>
@@ -39,35 +34,37 @@
          </section>
 
          <!--footer-->
- <footer>
-   <h4>Let's Connect</h4> 
-   <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
-   <Section class="Social">
-     <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
-     <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github"></a>
-     <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email"></a>
-   </section>
+         <footer>
+           <section class="Background">
+           <h4>Let's Connect</h4>
+           <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
 
-   <div class="copyright">
-   <p>Designed & Coded: Kamala Prasai 2019 </p>
-    </div>
- </footer>
-   <!-- Menu Bar -->
-   <script>
-       let mainNav = document.getElementById('js-menu');
-       let navBarToggle = document.getElementById('js-navbar-toggle');
-       navBarToggle.addEventListener('click', function () {
-       mainNav.classList.toggle('active');
-       });
-   </script>
-   <!-- Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+           <section class="Social">
+             <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" id=fab></fab> </a>
+             <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" id=fab></fab> </a>
+             <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" id=fab></fab> </a>
+         </section>
 
-     gtag('config', 'UA-155353267-1');
-   </script>
- </body>
-</html>
+           <section class="copyright">
+           <p>Designed & Coded: Kamala Prasai 2019 </p>
+         </section>
+         </footer>
+           <!-- Menu Bar -->
+           <script>
+               let mainNav = document.getElementById('js-menu');
+               let navBarToggle = document.getElementById('js-navbar-toggle');
+               navBarToggle.addEventListener('click', function () {
+               mainNav.classList.toggle('active');
+               });
+           </script>
+           <!-- Google Analytics -->
+           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
+           <script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+
+             gtag('config', 'UA-155353267-1');
+           </script>
+         </body>
+        </html>
