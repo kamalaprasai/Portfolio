@@ -9,19 +9,14 @@
      <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
    </head>
    <body>
-     <nav class="navbar">
-         <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
-         <img class="logo" src="images/logo.png">
-         <ul class="main-nav" id="js-menu">
-           <li>
-             <a href="index.html#Project" class="nav-links">Project</a>
-           </li>
-           <li>
-             <a href="about.html" class="nav-links">About</a>
-           </li>
-           <li>
-             <a href="contact.html" class="nav-links">Contact</a>
-           </li>
+     <header>
+       <section class="container">
+       <img class="logo" src="images/logo.png" alt="logo">
+      <nav>
+        <ul class= "nav-links">
+          <li><a href="#">Project</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
          </ul>
        </nav>
        <!--header-->
@@ -30,41 +25,42 @@
         <p>Bloc Jams is a JavaScript music player application. It is a music player which plays different songs. it was built using  HTML, CSS, JavaScript and jQuery. Users can play/pause on the song itself or on the player. Users can also go to the next or previous song.</p>
         <img class="Blocjams" src="images/Blocjams.png">
     </section>
-    <div class="case-buttons">
+    <section class="case-buttons">
         <a data-scroll="" href="https://kamalaprasai.github.io/bloc-jams-jquery/" class="button-hero-cta">View Blocjams</a>
-        </div>
       </section>
 
-         <!--footer-->
-         <footer>
-           <h4>Let's Connect</h4>
-           <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
-           <Section class="Social">
-             <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
-             <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github"></a>
-             <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email"></a>
-           </section>
+      <!--footer-->
+      <footer>
+        <section class="Background">
+        <h4>Let's Connect</h4>
+        <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
 
-        <div class="copyright">
+        <section class="Social">
+          <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" id=fab></fab> </a>
+          <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" id=fab></fab> </a>
+          <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" id=fab></fab> </a>
+      </section>
+
+        <section class="copyright">
         <p>Designed & Coded: Kamala Prasai 2019 </p>
-         </div>
-         </footer>
-           <!-- Menu Bar -->
-           <script>
-               let mainNav = document.getElementById('js-menu');
-               let navBarToggle = document.getElementById('js-navbar-toggle');
-               navBarToggle.addEventListener('click', function () {
-               mainNav.classList.toggle('active');
-               });
-           </script>
-           <!-- Google Analytics -->
-           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
-           <script>
-             window.dataLayer = window.dataLayer || [];
-             function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
+      </section>
+      </footer>
+        <!-- Menu Bar -->
+        <script>
+            let mainNav = document.getElementById('js-menu');
+            let navBarToggle = document.getElementById('js-navbar-toggle');
+            navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+            });
+        </script>
+        <!-- Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-             gtag('config', 'UA-155353267-1');
-           </script>
-         </body>
-        </html>
+          gtag('config', 'UA-155353267-1');
+        </script>
+      </body>
+     </html>

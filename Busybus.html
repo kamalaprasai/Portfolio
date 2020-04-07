@@ -9,19 +9,14 @@
      <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
    </head>
    <body>
-     <nav class="navbar">
-         <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
-         <img class="logo" src="images/logo.png">
-         <ul class="main-nav" id="js-menu">
-           <li>
-             <a href="index.html#Project" class="nav-links">Project</a>
-           </li>
-           <li>
-             <a href="about.html" class="nav-links">About</a>
-           </li>
-           <li>
-             <a href="contact.html" class="nav-links">Contact</a>
-           </li>
+     <header>
+       <section class="container">
+       <img class="logo" src="images/logo.png" alt="logo">
+      <nav>
+        <ul class= "nav-links">
+          <li><a href="#">Project</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
          </ul>
        </nav>
        <!--header-->
@@ -30,55 +25,57 @@
         <p>A mobile app focused on using public transportation in a major city.</p>
         <img class="Busybus" src="images/Busybus.png">
     </section>
-    <div class="case-buttons">
+    <section class="case-buttons">
         <a data-scroll="" href="https://kamalaprasai.github.io/fe-challenge/" class="button-hero-cta">View BusyBus</a>
-        </div>
+      </section>
 
-        <div class="summary">
-        <h2>summary</h2>
+        <div class="Summary">
+        <h2>Summary</h2>
         <p>For this exercise i was tasked with designing a transit app mobile application called BusyBus that would help riders see where their bus was and when it would arrive at their station.</p>
     </div>
 
-       <div class="problem">
+       <div class="Problem">
        <h2>Problem</h2>
        <p>Due to expansion, numerous bus routes have been recently added and many of those routes stop at the same bus stop. Riders want to know what the next arriving bus is and how much time they have to get to the bus stop. Riders were complaining most abot the Washington & State, which has seven bus lines serving the stop.</p>
         </div>
 
-        <div class="solution">
-        <h2>solution</h2>
+        <div class="Solution">
+        <h2>Solution</h2>
         <p>BusyBus displays the next bus and destination according to arrival time, as well as current bus location. it also show a list of buses that runs through that stop will be shown.</p>
         </div>
 
-         <!--footer-->
-         <footer>
-           <h4>Let's Connect</h4>
-           <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
-           <Section class="Social">
-             <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
-             <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github"></a>
-             <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email"></a>
-           </section>
+        <!--footer-->
+        <footer>
+          <section class="Background">
+          <h4>Let's Connect</h4>
+          <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
 
-           <div class="copyright">
-           <p>Designed & Coded: Kamala Prasai 2019 </p>
-            </div>
-         </footer>
-           <!-- Menu Bar -->
-           <script>
-               let mainNav = document.getElementById('js-menu');
-               let navBarToggle = document.getElementById('js-navbar-toggle');
-               navBarToggle.addEventListener('click', function () {
-               mainNav.classList.toggle('active');
-               });
-           </script>
-           <!-- Google Analytics -->
-           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
-           <script>
-             window.dataLayer = window.dataLayer || [];
-             function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
+          <section class="Social">
+            <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" id=fab></fab> </a>
+            <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" id=fab></fab> </a>
+            <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" id=fab></fab> </a>
+        </section>
 
-             gtag('config', 'UA-155353267-1');
-           </script>
-         </body>
-        </html>
+          <section class="copyright">
+          <p>Designed & Coded: Kamala Prasai 2019 </p>
+        </section>
+        </footer>
+          <!-- Menu Bar -->
+          <script>
+              let mainNav = document.getElementById('js-menu');
+              let navBarToggle = document.getElementById('js-navbar-toggle');
+              navBarToggle.addEventListener('click', function () {
+              mainNav.classList.toggle('active');
+              });
+          </script>
+          <!-- Google Analytics -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-155353267-1');
+          </script>
+        </body>
+       </html>
