@@ -5,10 +5,10 @@
 html {
   font-size: 10px;
 }
+
 section {
   padding: 2rem 3rem 2rem;
 }
-
 
 .active {
   display: block;
@@ -50,7 +50,7 @@ section {
     line-height: 140%;
     font-weight: bold;
     margin-top: 15rem;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   p {
@@ -59,13 +59,14 @@ section {
     line-height: 140%;
     color: #000000;
     text-align: left;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 
   .down-arrow {
     height: 50px;
-    width: 50px;``
-  }
+    width: 50px;
+    margin-top: 60px;
+    }
 
   h2 {
     text-align: center;
@@ -74,8 +75,14 @@ section {
     font-size: 24px;
     line-height: 167.2%;
     font-weight: bold;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
+
+.Cirrus-Background {
+  height: 638px;
+  width: 375px;
+  background-color: #9B51; /* 30% transparent */
+}
 
   .Cirrus {
     height: 348px;
@@ -91,14 +98,87 @@ section {
   font-weight: bold;
 }
 
-  .Blocjams {
+.case-buttons {
+  background-color: #9B51E0;
+  font-family: "Roboto slab";
+  font-size: 24px;
+  width:250px;
+  height:60px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.case-buttons:hover {
+  background-color: #B97FEF;
+}
+
+.button-hero-cta {
+color: #000000;
+}
+
+.Blocjams-Background {
+  height: 638px;
+  width: 375px;
+  background-color: #A05E8B;
+}
+
+.Blocjams {
       height: 269px;
       width: 234px;
       object-fit: contain;
+}
+
+.Busybus-Background {
+  height: 842px;
+  width: 375px;
+  background-color: #f2f2f2;
 }
 
 .Busybus {
   height: 200px;
   width: 398px;
   object-fit: contain;
+  margin-top:5rem;
+}
+
+.Background {
+  width:375px;
+  height:534px;
+  margin-top:30rem;
+  background-color: #D4E4E9;
+}
+
+ h4 {
+  color: #000000;
+  text-align: center;
+  font-family: "lora";
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom:5rem;
+}
+
+p.footer-copy {
+ font-family: "lora";
+ font-size: 20px;
+ line-height: 167.2%;
+ text-align: center;
+ margin-bottom:5rem;
+}
+
+.Social a {
+  display: inline;
+  padding: 1.5rem;
+}
+
+#fab {
+  width:30px;
+  height:30px;
+}
+
+.copyright {
+  font-family: "lora";
+  font-size: 16px;
+  line-height: 167.2%;
+  text-align: justify;
 }
