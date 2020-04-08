@@ -6,16 +6,15 @@ html {
   font-size: 10px;
 }
 section {
-  padding: 2rem 3rem 2rem;
+  padding: 2rem;
 }
 
-
-.active {
+.Active {
   display: block;
 }
 .container {
   width:375px;
-  height:1531px;
+  height:3062px;
   background-color: #F2F2F2;
   margin: auto;
 }
@@ -40,56 +39,38 @@ section {
   font-weight: bold;
   Float: right;
   padding: 1rem;
+  margin-bottom: 40px;
   }
 
-h3 {
-  color: #9B51E0;
+  .picture {
+    height: 300px;
+    width: 206px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+
+h1 {
+  font-family: "Lora";
+  font-size: 20px;
+  font-weight:bold;
   text-align: center;
-  font-family: "lora";
-  font-size: 36px;
-  font-weight: bold;
-  margin-top: 10rem;
-  margin-bottom: 40px;
-
+  line-height: 167.23%;
+  margin-bottom: 5.5rem;
 }
 
-input {
-  font-size: 18px;
-  font-family: "lora";
-  height: 40px;
-  width: 299px;
-  margin: 1.8rem 0;
-  margin-bottom: 3.3rem;
-  padding: 1.1rem 1rem;
-}
-
-#styled {
-  font-family: "lora";
-  font-size: 18px;
-  width:299px;
-  height:257px;
-  margin-top: 3.3rem;
-}
-
-#button {
-  background-color: #9B51E0;
-  font-family: "Roboto slab";
-  font-size: 18px;
-  width:250px;
-  height:76px;
-  margin-top: 3.3rem;
-  margin-bottom: 15rem;
-}
-
-#button:hover {
-  background-color: #B97FEF;
+p {
+  font-family: "Lora";
+  font-size: 16px;
+  line-height: 200%;
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Background {
   width:375px;
   height:534px;
   background-color: #D4E4E9;
-
 }
 
  h4 {
@@ -104,7 +85,7 @@ input {
 p.footer-copy {
  font-family: "lora";
  font-size: 20px;
- line-height: 167.2%;
+ line-height: 167.23%;
  text-align: center;
  margin-bottom:5rem;
 }
@@ -122,6 +103,6 @@ p.footer-copy {
 .copyright {
   font-family: "lora";
   font-size: 16px;
-  line-height: 167.2%;
+  line-height: 167.23%;
   text-align: justify;
 }
