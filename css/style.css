@@ -106,7 +106,6 @@ section {
 .case-buttons {
   background-color: #9B51E0;
   font-family: "Roboto slab";
-  font-size: 24px;
   width:250px;
   height:60px;
   border-radius: 10px;
@@ -121,6 +120,7 @@ section {
 
 .button-hero-cta {
 color: #000000;
+font-size: 16px;
 }
 
 .Blocjams-Background {
@@ -273,8 +273,10 @@ input {
 }
 
 .Busybus {
-  height: 200px;
-  width: 416px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%
+  text-align: center;
   object-fit: contain;
   margin-top: 4rem;
 }
