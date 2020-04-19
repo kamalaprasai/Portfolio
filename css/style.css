@@ -147,13 +147,6 @@ font-size: 16px;
   margin-bottom: 3rem;
 }
 
-.Background {
-  width:375px;
-  height:534px;
-  margin-top:5rem;
-  text-align: center;
-  background-color: #D4E4E9;
-}
 
  h4 {
   color: #000000;
@@ -177,6 +170,7 @@ p.footer-copy {
   display: inline;
   padding: 1.5rem;
 }
+
 .Social {
   text-align: center;
 }
