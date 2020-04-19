@@ -7,7 +7,7 @@ html {
 }
 
 section {
-  padding: 2rem 3rem 2rem;
+  padding: 2rem 3rem 2rem ;
 }
 
 .active {
@@ -41,7 +41,6 @@ section {
   .I-container {
     width:375px;
     height:3578px;
-    background-color: #F2F2F2;
     margin: auto;
   }
 
@@ -143,15 +142,16 @@ font-size: 16px;
 
 .Busybus {
   height: 200px;
-  width: 398px;
-  object-fit: contain;
-  margin-top:5rem;
+  width: 416px;
+  height: auto;
+  margin-bottom: 3rem;
 }
 
 .Background {
   width:375px;
   height:534px;
   margin-top:5rem;
+  text-align: center;
   background-color: #D4E4E9;
 }
 
@@ -176,6 +176,9 @@ p.footer-copy {
 .Social a {
   display: inline;
   padding: 1.5rem;
+}
+.Social {
+  text-align: center;
 }
 
 #fab {
