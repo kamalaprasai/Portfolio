@@ -40,8 +40,9 @@ section {
 
   .I-container {
     width:375px;
-    height:3578px;
+    height:3489px;
     margin: auto;
+    background-color: #F2F2F2;
   }
 
   h1 {
@@ -53,27 +54,21 @@ section {
     margin-bottom: 40px;
   }
 
-  a {
-    font-family: "Lora";
-    font-size: 24px;
-    line-height: 167.2%;
-    text-align: left;
-  }
-
-  b {
-    font-family: "Lora";
-    font-size: 20px;
-    line-height: 167.2%;
-    text-align: left;
-  }
+.hero p{
+  font-family: "Lora";
+  font-size: 20px;
+  line-height: 167.2%;
+  text-align: left;
+}
 
   .down-arrow {
-    height: 50px;
-    width: 50px;
     margin-top: 80px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%
     }
 
-    h2 {
+  h2 {
       color: #9B51E0;
       text-align: center;
       font-family: "lora";
@@ -83,34 +78,43 @@ section {
       margin-bottom: 40px;
     }
 
-.Cirrus-Background {
-  height: 638px;
+Cirrus-Background {
+  height: 605px;
   width: 375px;
+  background-color: #9B51E0;
 }
 
   .Cirrus {
-    height: 189px;
-    width: 348px;
-    object-fit: contain;
+    height: auto;
+    margin-top: 5rem;
+    width: 100%;
   }
 
   h3 {
   text-align: left;
   font-family: "Lora";
   font-size: 36px;
+  margin-top: 40px;
   line-height: 167.2%;
   font-weight: bold;
+}
+
+.Cirrus-Background p {
+  font-family: "Lora";
+  font-size: 20px;
+  margin-bottom: 4rem;
+  line-height: 167.2%;
+  text-align: left;
 }
 
 .case-buttons {
   background-color: #9B51E0;
   font-family: "Roboto slab";
-  width:250px;
-  height:60px;
   border-radius: 10px;
   text-align: center;
-  margin-bottom: :40px;
-  margin-top: 20px;
+  margin-bottom:40px;
+  width:250px;
+  height:60px;
 }
 
 .case-buttons:hover {
@@ -119,72 +123,76 @@ section {
 
 .button-hero-cta {
 color: #000000;
-font-size: 16px;
+font-size: 20px;
 }
 
-.Blocjams-Background {
-  height: 638px;
+.Blocjams {
+  height: auto;
+  margin-top: 5rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%
+  }
+
+Blocjams-Background {
+  height: 585px;
   width: 375px;
   background-color: #A05E8B;
 }
 
-.Blocjams {
-      height: 269px;
-      width: 234px;
-      object-fit: contain;
-}
-
-.Busybus-Background {
-  height: 842px;
-  width: 375px;
-  background-color: #f2f2f2;
-}
-
 .Busybus {
-  height: 200px;
-  width: 416px;
-  height: auto;
-  margin-bottom: 3rem;
+ height: auto;
+  margin-top: 5rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 
- h4 {
-  color: #000000;
-  text-align: center;
-  font-family: "lora";
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom:3rem;
-  margin-top: 3rem;
+.Background {
+  width: 375px;
+  height: 534px;
+  margin-top:10rem;
+  background-color: #D4E4E9
+}
+
+h4 {
+ color: #000000;
+ text-align: center;
+ font-family: "lora";
+ font-size: 30px;
+ font-weight: bold;
+ margin-bottom:3rem;
+ margin-top: 3rem;
 }
 
 p.footer-copy {
- font-family: "lora";
- font-size: 20px;
- line-height: 167.2%;
- text-align: center;
- margin-bottom:5rem;
+font-family: "lora";
+font-size: 20px;
+line-height: 167.2%;
+text-align: center;
+margin-bottom:5rem;
 }
 
 .Social a {
-  display: inline;
-  padding: 1.5rem;
+ display: inline;
+ padding: 1.5rem;
 }
 
 .Social {
-  text-align: center;
+ text-align: center;
 }
 
 #fab {
-  width:30px;
-  height:30px;
+ width:30px;
+ height:30px;
 }
 
 .copyright {
-  font-family: "lora";
-  font-size: 16px;
-  line-height: 167.2%;
-  text-align: justify;
+ font-family: "lora";
+ font-size: 16px;
+ line-height: 167.2%;
+ text-align: justify;
 }
 
 /* About.html */
@@ -214,7 +222,7 @@ margin-bottom: 5.5rem;
 p {
 font-family: "Lora";
 font-size: 16px;
-line-height: 200%;
+line-height: 167.2%;
 text-align: left;
 margin-bottom: 1rem;
 }
@@ -223,7 +231,7 @@ margin-bottom: 1rem;
 
 .C-container {
   width:375px;
-  height:1531px;
+  height:1496px;
   background-color: #F2F2F2;
   margin: auto;
 }
@@ -253,7 +261,6 @@ input {
   width:250px;
   height:76px;
   margin-top: 3.3rem;
-  margin-bottom: 15rem;
 }
 
 #button:hover {
@@ -269,14 +276,24 @@ input {
   margin: auto;
 }
 
-.Busybus {
+.Busy-bus {
+ height: auto;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%
-  text-align: center;
-  object-fit: contain;
-  margin-top: 4rem;
 }
+
+.Summary p, .Solution p, .Problem p {
+font-family: "Lora";
+font-size: 16px;
+line-height: 167.2%;
+text-align: left;
+width:316px;
+}
+
 
 h6 {
    text-align: center;
@@ -285,8 +302,8 @@ h6 {
    font-weight: bold;
    line-height: 167.2%;
    color: #9B51E0;
-   margin-bottom: 20px;
-   margin-top: 50px;
+   margin-bottom: 2rem;
+   margin-top: 5rem;
  }
 
  /* Blocjam.html */
@@ -297,9 +314,3 @@ h6 {
   background-color: #F2F2F2;
   margin: auto;
 }
-
-.Blocjams {
-    height: 300px;
-    width: 193px;
-    object-fit: contain;
-  }
