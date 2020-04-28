@@ -78,7 +78,6 @@ section {
 
 .Cirrus-Background {
   background-color: #D8C2ED;
-
 }
 
   .Cirrus {
@@ -96,7 +95,7 @@ section {
   font-weight: bold;
 }
 
-.cirrus-Background p {
+ p {
   font-family: "Lora";
   font-size: 20px;
   margin-bottom: 4rem;
