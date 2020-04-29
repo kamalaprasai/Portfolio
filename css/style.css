@@ -6,6 +6,10 @@ html {
   font-size: 10px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 div {
   padding: 2rem 4rem 2rem;
 }
@@ -53,9 +57,10 @@ div {
 
 .hero p{
   font-family: "Lora";
-  font-size: 20px;
+  font-size: 24px;
   line-height: 167.2%;
   text-align: left;
+  margin-top: 4rem;
   padding-left: 5px;
 }
 
@@ -82,7 +87,7 @@ div {
 
   .Cirrus {
     height: auto;
-    margin-top: 5rem;
+    margin-top: 4rem;
     width: 100%;
   }
 
@@ -95,7 +100,7 @@ div {
   font-weight: bold;
 }
 
- p {
+ .Cirrus-Background p, .Blocjams-Background P, .Busybus-Background P {
   font-family: "Lora";
   font-size: 20px;
   margin-bottom: 4rem;
@@ -107,8 +112,8 @@ div {
 .case-buttons {
   background-color: #9B51E0;
   font-family: "Roboto slab";
-  border-radius: 10px;
   text-align: center;
+  border-radius: 10px;
   margin-bottom:40px;
   width:250px;
   height:60px;
@@ -120,15 +125,13 @@ div {
 
 .button-hero-cta {
 color: #000000;
-font-size: 20px;
+font-size: 16px;
 }
 
 .Blocjams {
   height: auto;
-  margin-top: 5rem;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%
+  margin-top: 4rem;
+  width: 100%;
   }
 
 .Blocjams-Background {
@@ -180,9 +183,9 @@ margin-bottom:5rem;
  height:30px;
 }
 
-.copyright {
+.copyright P {
  font-family: "lora";
- font-size: 16px;
+ font-size: 18px;
  line-height: 167.2%;
  text-align: justify;
 }
@@ -199,6 +202,8 @@ margin-bottom:5rem;
   line-height: 200%;
   text-align: left;
   margin-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 h5 {
@@ -255,7 +260,7 @@ input {
 .Busy-bus {
  height: auto;
   margin-bottom: 8rem;
-  margin-top: 4rem;
+  margin-top: 6rem;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%
@@ -275,7 +280,7 @@ h6 {
  /* Blocjam.html */
 .Bloc-jams {
   height: auto;
-   margin-bottom: 8rem;
-   margin-top: 4rem;
+   margin-bottom: 6rem;
+   margin-top: 6rem;
    width: 100%;
 }
