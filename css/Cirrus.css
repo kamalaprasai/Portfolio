@@ -6,10 +6,6 @@ section {
   padding: 2rem 4rem 2rem ;
 }
 
-iv {
-  padding: 10rem;
-}
-
 a:link {
   text-decoration: none;
 }
@@ -100,7 +96,7 @@ color: #000000;
   width:80px;
   margin-left:6%;
   margin-right:6%;
-  margin-top: 8rem;
+  margin-top: 13rem;
   }
 
  h2 {
@@ -109,10 +105,10 @@ color: #000000;
     text-align:center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-  }
+    }
 
 .underline {
-  border-bottom: 15px solid#D7B9F3
+  background: linear-gradient(0deg, rgba(155,81,224,1) 0%, rgba(155,81,224,1) 16%, rgba(155,81,224,1) 16%, rgba(155,81,224,1) 41%, rgba(155,81,224,0) 41%);
 }
 
 #role, #deliverables, #tools {
@@ -139,7 +135,7 @@ h3 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 h4 {
@@ -161,13 +157,13 @@ b {
 
 .projectimages {
   padding-bottom:20px;
-  padding-top:40px;
+  padding-top:15px;
+  margin-left:40%;
 }
 
-.persona2{
-  padding-top: 40px;
-  margin-left:25%;
-  margin-right:5%;
+.persona2, .persona1 {
+  padding-top: 20px;
+  margin-left:30%;
 }
 
 h5 {
@@ -191,6 +187,7 @@ h6 {
 
 .highpriority {
   background-color: #F2F2F2;
+  margin-bottom: 10px;
 }
 
 .highpriority p {
@@ -205,12 +202,12 @@ h6 {
 .flow1 img, .flow2 img, .flow3 img, .flow4 img {
   margin-bottom: 20px;
   margin-top: 10px;
-  text-align: center;
 }
 
 .Sketch1 img, .Sketch2 img, .Sketch3 img, .Sketch4 img {
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left: 3%;
   }
 
 .Sketch,  .wireframe, .Mockups{
@@ -218,12 +215,23 @@ h6 {
 }
 
 .Wireframe1 img, .Wireframe2 img, .Wireframe3 img, .Wireframe4 img, .Wireframe5 {
-  margin-bottom:10px;
+  margin-bottom:20px;
+  margin-top:20px;
+  margin-left: 3%;
+}
+
+.Color-Pallette img, .Branding img {
+  margin-top:10px;
+  margin-left: 3%;
+}
+
+.brand-identity img {
+  margin-left: 12%;
   margin-top:10px;
 }
 
-.Brandlogo, .Typography img, .Color-Pallette img {
-  margin-top:20px;
+.typography img {
+  margin-left: 7%;
 }
 
 .Cirrus-logo {
@@ -246,7 +254,9 @@ h6 {
   }
 
 .Mockups1 img, .Mockups2 img, .Mockups3 img, .Mockups4 img {
-  margin-bottom:10px;
+  margin-bottom:20px;
+  margin-top:20px;
+  margin-left: 3%;
   }
 
   .Background {
