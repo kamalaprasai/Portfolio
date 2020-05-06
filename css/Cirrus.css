@@ -182,10 +182,10 @@ h2 {
 .discovery-phase h2::before {
      content: "";
      display: block;
-     width: 68px;
+     width: 88px;
      height: 3px;
      position: absolute;
-     left: 0;
+     left: -75px
      top: 50%;
      background: #EB5757
      }
@@ -193,10 +193,10 @@ h2 {
 .discovery-phase h2::after {
     content: "";
     display: block;
-    width: 68px;
+    width: 88px;
     height: 3px;
     position: absolute;
-    right: 0;
+    right: -75px;
     top: 50%;
     background: #EB5757
     }
