@@ -42,16 +42,12 @@ div {
 
 /* INDEX.HTML */
 
-  .I-container {
-    background-color: #F2F2F2;
-  }
-
   h1 {
     text-align: center;
     font-family: "lora";
     font-size: 36px;
     font-weight: bold;
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-bottom: 40px;
   }
 
@@ -75,11 +71,20 @@ div {
       color: #9B51E0;
       text-align: center;
       font-family: "lora";
-      font-size: 24px;
+      font-size: 30px;
       font-weight: bold;
       margin-top: 10rem;
       margin-bottom: 40px;
     }
+
+  .hero h1, .hero h2 {
+    font-style: italic;
+  }
+
+  .form-container h2 {
+    margin-top: 15rem;
+    margin-bottom: 60px;
+  }
 
 .Cirrus-Background {
   background-color: #D8C2ED;
@@ -109,7 +114,7 @@ div {
   padding-left: 5px;
 }
 
-.case-buttons {
+.casebuttons {
   background-color: #9B51E0;
   font-family: "Roboto slab";
   text-align: center;
@@ -119,7 +124,7 @@ div {
   height:60px;
 }
 
-.case-buttons:hover {
+.casebuttons:hover {
   background-color: #B97FEF;
 }
 
@@ -135,7 +140,7 @@ font-size: 16px;
   }
 
 .Blocjams-Background {
-  background-color: #A05E8B;
+  background-color: #A96E97;
 }
 
 .Busybus {
@@ -147,25 +152,51 @@ font-size: 16px;
 }
 
 .Background {
-  margin-top:3rem;
+  margin-top:10rem;
   background-color: #D4E4E9
 }
 
 h4 {
- color: #000000;
- text-align: center;
- font-family: "lora";
- font-size: 30px;
- font-weight: bold;
- margin-bottom:3rem;
- margin-top: 3rem;
-}
+     font-size: 30px;
+     max-width: 375px;
+     text-align:center;
+     font-weight: bold;
+     margin-bottom: 20px;
+     margin-top: 3rem;
+     margin-top: 30px;
+     margin: 2rem auto;
+     font-family: "lora";
+     position: relative;
+   }
+
+   h4::before {
+     content: "";
+     display: block;
+     width: 90px;
+     height: 3px;
+     position: absolute;
+     left: -30px;
+     top: 50%;
+     background: #EB5757
+     }
+
+  h4::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    background: #EB5757
+    }
 
 p.footer-copy {
 font-family: "lora";
 font-size: 20px;
 line-height: 167.2%;
 text-align: center;
+margin-top: 4rem;
 margin-bottom:5rem;
 }
 
@@ -176,6 +207,7 @@ margin-bottom:5rem;
 
 .Social {
  text-align: center;
+ margin-bottom:5rem;
 }
 
 #fab {
@@ -183,18 +215,19 @@ margin-bottom:5rem;
  height:30px;
 }
 
-.copyright P {
- font-family: "lora";
- font-size: 18px;
- line-height: 167.2%;
- text-align: justify;
+.copyright {
+  font-family: "lora";
+  font-size: 16px;
+  line-height: 167.2%;
+  margin-bottom: 3rem;
+  text-align: justify;
 }
 
 /* About.html */
 
 .picture {
   height: auto;
-  margin-top: 6rem;
+  margin-top: 8rem;
   width: 100%;
 }
 
@@ -202,8 +235,8 @@ margin-bottom:5rem;
   line-height: 200%;
   text-align: left;
   margin-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 h5 {
@@ -240,6 +273,7 @@ input {
   width:299px;
   height:257px;
   margin-top: 3.3rem;
+  margin-left: 3%;
 }
 
 #button {
@@ -249,6 +283,11 @@ input {
   width:250px;
   height:76px;
   margin-top: 3.3rem;
+  margin-left: 2%;
+}
+
+#input {
+  margin-left: 3%;
 }
 
 #button:hover {
@@ -283,4 +322,20 @@ h6 {
    margin-bottom: 6rem;
    margin-top: 6rem;
    width: 100%;
+}
+
+.case-buttons {
+  background-color: #9B51E0;
+  font-family: "Roboto slab";
+  text-align: center;
+  border-radius: 10px;
+  width:250px;
+  height:60px;
+  margin: 0 auto
+}
+
+
+}
+.case-buttons:hover {
+  background-color: #B97FEF;
 }

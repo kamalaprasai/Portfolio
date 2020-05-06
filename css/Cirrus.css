@@ -147,10 +147,10 @@ h4 {
    h4::before {
      content: "";
      display: block;
-     width: 84px;
+     width: 88px;
      height: 3px;
      position: absolute;
-     left: 0;
+     left: -30px;
      top: 50%;
      background: #EB5757
      }
@@ -158,10 +158,10 @@ h4 {
   h4::after {
     content: "";
     display: block;
-    width: 84px;
+    width: 88px;
     height: 3px;
     position: absolute;
-    right: 0;
+    right: -30px;
     top: 50%;
     background: #EB5757
     }
@@ -185,7 +185,7 @@ h2 {
      width: 88px;
      height: 3px;
      position: absolute;
-     left: -75px
+     left: -75px;
      top: 50%;
      background: #EB5757
      }
@@ -213,7 +213,7 @@ b {
 
 .persona2, .persona1 {
   padding-top: 20px;
-  margin-left:30%;
+  margin-left:26%;
 }
 
 h5 {
@@ -237,7 +237,6 @@ h6 {
 
 .highpriority {
   background-color: #F2F2F2;
-  margin-bottom: 10px;
   margin-bottom: 4rem;
 }
 
@@ -280,7 +279,7 @@ h6 {
   margin-top:10px;
   margin-left: 3%;
 }
-.Color-Pallette img {
+.color-pallette img {
   margin-bottom: 4rem;
 }
 
@@ -297,6 +296,10 @@ h6 {
   margin-bottom: 25px;
 }
 
+.final-product  h3 {
+  margin-top: 15rem;
+}
+
 .final-product p {
   text-align: left;
   font-family: "lora";
@@ -304,7 +307,7 @@ h6 {
   font-size: 22px;
   font-weight: bold;
   color: #56CCF2;
-  margin-top: 40px;
+  margin-top: 10rem;
   }
 
 .Mockups1 img, .Mockups2 img, .Mockups3 img, .Mockups4 img {
@@ -314,7 +317,7 @@ h6 {
   }
 
   .Background {
-    margin-top:5rem;
+    margin-top:10rem;
     background-color: #D4E4E9;
   }
 
