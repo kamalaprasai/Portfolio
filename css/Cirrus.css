@@ -19,7 +19,7 @@ html {
   display: block;
 }
 
-.logo {
+#logo {
   float: left;
   height: 40px;
   width: 40px;
