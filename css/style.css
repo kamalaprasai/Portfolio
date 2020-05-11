@@ -18,7 +18,7 @@ div {
   display: block;
 }
 
-.logo {
+#logo {
   float: left;
   height: 40px;
   width: 40px;
@@ -334,8 +334,6 @@ h6 {
   margin: 0 auto
 }
 
-
-}
 .case-buttons:hover {
   background-color: #B97FEF;
 }
