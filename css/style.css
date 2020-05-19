@@ -339,7 +339,7 @@ text-align: left;
   margin: 0 auto
 }
 
-.case-buttons1:hover {
+.case-buttons:hover {
   background-color: #B97FEF;
 }
 
@@ -350,6 +350,10 @@ text-align: left;
     height: auto;
     width: 100%;
   }
+
+.cirrus p {
+  margin-left: 4%;
+}
 
 .cloud {
   margin-top: 4rem;
