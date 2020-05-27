@@ -11,7 +11,8 @@ a:link {
 }
 
 div {
-  padding: 2rem 4rem 2rem;
+  padding: 2rem 8rem 2rem;
+  margin: 0 auto
 }
 
 .active {
@@ -50,7 +51,6 @@ div {
     margin-top: 15rem;
     margin-bottom: 40px;
     color: #000000;
-
   }
 
 .hero p{
@@ -81,6 +81,7 @@ div {
 
   .hero h1, .hero h2 {
     font-style: italic;
+    line-height: 140%;
   }
 
   .form-container h2 {
@@ -104,7 +105,6 @@ div {
   font-family: "Lora";
   font-size: 36px;
   margin-top: 40px;
-  line-height: 167.2%;
   font-weight: bold;
   color: #000000;
 }
@@ -115,7 +115,6 @@ div {
   margin-bottom: 4rem;
   line-height: 167.2%;
   text-align: left;
-  padding-left: 5px;
 }
 
 .casebuttons {
@@ -126,6 +125,7 @@ div {
   margin-bottom:40px;
   width:250px;
   height:60px;
+  padding: 2rem 4rem 2rem;
 }
 
 .casebuttons:hover {
@@ -175,10 +175,10 @@ h4 {
    h4::before {
      content: "";
      display: block;
-     width: 90px;
+     width: 130px;
      height: 3px;
      position: absolute;
-     left: -30px;
+     left: -80px;
      top: 50%;
      background: #EB5757
      }
@@ -186,10 +186,10 @@ h4 {
   h4::after {
     content: "";
     display: block;
-    width: 90px;
+    width: 130px;
     height: 3px;
     position: absolute;
-    right: -30px;
+    right: -80px;
     top: 50%;
     background: #EB5757
     }
@@ -219,11 +219,9 @@ margin-bottom:5rem;
 }
 
 .copyright p {
-  font-family: "lora";
-  font-size: 16px;
-  line-height: 167.2%;
+  font-size: 18px;
   margin-bottom: 3rem;
-  margin-left: 4%;
+  text-align: center;
 }
 
 /* About.html */
@@ -237,7 +235,7 @@ margin-bottom:5rem;
 .aboutme p {
   line-height: 200%;
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-family: "Lora";
   margin-left: 3%;
   font-size: 16px;
@@ -311,7 +309,6 @@ input {
    line-height: 167.2%;
    color: #9B51E0;
    margin-bottom: 2rem;
-   margin-top: 6rem;
  }
 
  /* Blocjam.html */
@@ -336,7 +333,7 @@ text-align: left;
   border-radius: 10px;
   width:250px;
   height:60px;
-  margin: 0 auto
+  padding: 2rem 4rem 2rem;
 }
 
 .case-buttons:hover {
@@ -376,11 +373,10 @@ text-align: left;
 
  p {
   font-family: "Lora";
+  line-height: 167.2%;
   font-size: 16px;
-  line-height: 167.23%;
   text-align: left;
   margin-bottom: 2rem;
-  text-align: left;
   }
 
   .case-buttons {
@@ -389,8 +385,8 @@ text-align: left;
 
 #projecticons img {
   width:80px;
-  margin-left:6%;
-  margin-right:6%;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 13rem;
   }
 
@@ -400,6 +396,7 @@ text-align: left;
 
 #role, #deliverables, #tools {
     padding: 30px;
+    margin-top: 4rem;
 }
 
 #projectdetails h2 {
@@ -514,7 +511,6 @@ b {
 .Sketch1 img, .Sketch2 img, .Sketch3 img, .Sketch4 img {
     margin-bottom:20px;
     margin-top:20px;
-    margin-left: 3%;
   }
 
 .sketch-wireframe p {
@@ -559,7 +555,7 @@ b {
 }
 
 .final-product p {
-  text-align: left;
+  text-align: center;
   font-family: "lora";
   font-style: italic;
   font-size: 22px;
