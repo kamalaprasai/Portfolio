@@ -155,11 +155,6 @@ font-size: 16px;
   margin-right: 10%
 }
 
-.Background {
-  margin-top:10rem;
-  background-color: #D4E4E9
-}
-
 h4 {
      font-size: 30px;
      max-width: 375px;
@@ -203,24 +198,25 @@ margin-top: 4rem;
 margin-bottom:5rem;
 }
 
-.Social a {
+.Background a {
  display: inline;
  padding: 1.5rem;
 }
 
-.Social {
+.Background {
  text-align: center;
- margin-bottom:5rem;
-}
+ margin-top:10rem;
+ background-color: #D4E4E9
+ }
 
 .fab {
  width:30px;
  height:30px;
 }
 
-.copyright p {
+.copyright p  {
   font-size: 18px;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
