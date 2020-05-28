@@ -1,74 +1,80 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-     <meta charset="utf-8"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Kamala Prasai - UX Designer</title>
-     <link rel="stylesheet" href="css/reset.css">
-     <link rel="stylesheet" href="css/style.css">
-     <link href="https://fonts.google.com/specimen/Roboto+Slab?sidebar.open&selection.family=Lora:ital,wght@0,400;1,700|Roboto+Slab&query=roboto+slab" rel="stylesheet">
-   </head>
-   <body>
-   <header>
-       <div class="c-container">
-         <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
-         <ul class= "nav-links">
-                <li>
-                  <a href="index.html" class="nav-links">Project</a>
-                </li>
-                <li>
-                  <a href="about.html" class="nav-links">About</a>
-                </li>
-                <li>
-                  <a href="contact.html" class="nav-links">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </header>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kamala Prasai - UX Designer</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.google.com/specimen/Roboto+Slab?sidebar.open&selection.family=Lora:ital,wght@0,400;1,700|Roboto+Slab&query=roboto+slab" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="c-container">
+      <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="nav-links">Project</a>
+        </li>
+        <li>
+          <a href="about.html" class="nav-links">About</a>
+        </li>
+        <li>
+          <a href="contact.html" class="nav-links">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
 
 
-       <section class="form-container">
-        <h2>Let's chat!</h2>
+  <section class="form-container">
+    <h2>Let's chat!</h2>
+  </section>
+
+  <div class="form">
+    <input type="text" placeholder="Full Name" id="input">
+    <input type="text" placeholder="Email address" id="input">
+    <input type="text" placeholder="Hi Kamala.." id="styled">
+    <button type="submit" id=button>Send Message</button>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="Background">
+      <h4>Let's Connect</h4>
+      <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
+      <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="fab"></a>
+      <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github" class="fab"></a>
+      <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email" class="fab"></a>
+
+      <section class="copyright">
+        <p>Designed & Coded: Kamala Prasai 2019 </p>
       </section>
+    </div>
+  </footer>
 
-      <div class="form">
-          <input type="text" placeholder="Full Name" id=input></input>
-          <input type="text"placeholder="Email address" id=input></input>
-          <input type="text"placeholder="Hi Kamala.." id=styled></styled>
-        <button type="submit" id=button>Send Message</button>
-      </div>
-      
-              <!--footer-->
-            <footer>
-                <div class="Background">
-                <h4>Let's Connect</h4>
-                <p class="footer-copy">i’m always up to chat about design! I hope you enjoyed my work if you’ll like feel free to reach out for collaborations or just a friendly hello.</p><br>
-                  <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class= "fab"></a>
-                  <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github" class= "fab"></a>
-                  <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email" class= "fab"></a>
+  <!-- Menu Bar -->
+  <script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+    navBarToggle.addEventListener('click', function() {
+      mainNav.classList.toggle('active');
+    });
+  </script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-                <section class="copyright">
-                <p>Designed & Coded: Kamala Prasai 2019 </p>
-              </section>
-              </footer>
-            </div>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-        <!-- Menu Bar -->
-        <script>
-            let mainNav = document.getElementById('js-menu');
-            let navBarToggle = document.getElementById('js-navbar-toggle');
-            navBarToggle.addEventListener('click', function () {
-            mainNav.classList.toggle('active');
-            });
-        </script>
-        <!-- Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    gtag('config', 'UA-155353267-1');
+  </script>
+</body>
 
-          gtag('config', 'UA-155353267-1');
-        </script>
-      </body>
-     </html>
+</html>
