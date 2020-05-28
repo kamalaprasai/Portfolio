@@ -288,9 +288,9 @@ input {
 
 /* Busybus.html */
 
-.Busy-bus {
+.busy-bus {
  height: auto;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
   margin-top: 6rem;
   width: 80%;
   margin-left: 10%;
@@ -492,7 +492,7 @@ b {
 
 .highpriority p {
   text-align: center;
-  font-family: "lora";
+  font-family: "Lora";
   font-size: 16px;
   line-height: 200%;
   font-weight: bold;
