@@ -11,7 +11,7 @@ a:link {
 }
 
 div {
-  padding: 2rem 8rem 2rem;
+  padding: 2rem 3rem 2rem;
   margin: 0 auto
 }
 
@@ -35,72 +35,72 @@ div {
   display: block;
   text-decoration: none;
   font: normal 16px "Lora";
-  line-height: 167.23%;
+  line-height: 200%;
   font-weight: bold;
   Float: right;
   padding: 1rem;
-  }
+}
 
 /* INDEX.HTML */
+.blocjamcontainer h1, .busybuscontainer h1, .hero h1 {
+  text-align: center;
+  font-family: "lora";
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 15rem;
+  margin-bottom: 40px;
+  color: #000000;
+}
 
-  .blocjamcontainer h1, .busybuscontainer h1, .hero h1 {
-    text-align: center;
-    font-family: "lora";
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 15rem;
-    margin-bottom: 40px;
-    color: #000000;
-  }
-
-.hero p{
+.hero p {
   font-family: "Lora";
   font-size: 24px;
-  line-height: 167.2%;
+  line-height: 200%;
   text-align: left;
   margin-top: 4rem;
   padding-left: 5px;
 }
 
-  .down-arrow {
-    margin-top: 80px;
-    width: 16%;
-    margin-left: 42%;
-    margin-right: 42%
-    }
+.down-arrow {
+  margin-top: 80px;
+  width: 16%;
+  margin-left: 42%;
+  margin-right: 42%
+}
 
-  .hero h2 {
-      color: #9B51E0;
-      text-align: center;
-      font-family: "lora";
-      font-size: 30px;
-      font-weight: bold;
-      margin-top: 10rem;
-      margin-bottom: 40px;
-    }
+.hero h2 {
+  color: #9B51E0;
+  text-align: center;
+  font-family: "lora";
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10rem;
+  margin-bottom: 40px;
+}
 
-  .hero h1, .hero h2 {
-    font-style: italic;
-    line-height: 140%;
-  }
+.hero h1, .hero h2 {
+  font-style: italic;
+  line-height: 140%;
+}
 
-  .form-container h2 {
-    margin-top: 15rem;
-    margin-bottom: 60px;
-    color: #9B51E0;
-  }
+.form-container h2 {
+  margin-top: 15rem;
+  margin-bottom: 60px;
+  color: #9B51E0;
+}
 
 .Cirrus-Background {
   background-color: #D8C2ED;
+  width: auto;
 }
 
-  .Cirrus {
-    height: auto;
-    margin-top: 4rem;
-    width: 100%;
-  }
+.Cirrus {
+  height: auto;
+  margin-top: 4rem;
+  width: 100%;
+}
 
-.Cirrus-Background h3, .Blocjams-Background h3, .Busybus-Background h3{
+.Cirrus-Background h3, .Blocjams-Background h3, .Busybus-Background h3 {
   text-align: left;
   font-family: "Lora";
   font-size: 36px;
@@ -109,11 +109,11 @@ div {
   color: #000000;
 }
 
- .Cirrus-Background p, .Blocjams-Background P, .Busybus-Background P {
+.Cirrus-Background p, .Blocjams-Background P, .Busybus-Background P {
   font-family: "Lora";
   font-size: 20px;
   margin-bottom: 4rem;
-  line-height: 167.2%;
+  line-height: 200%;
   text-align: left;
 }
 
@@ -122,9 +122,9 @@ div {
   font-family: "Roboto slab";
   text-align: center;
   border-radius: 10px;
-  margin-bottom:40px;
-  width:250px;
-  height:60px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 60px;
   padding: 2rem 4rem 2rem;
 }
 
@@ -133,22 +133,23 @@ div {
 }
 
 .button-hero-cta {
-color: #000000;
-font-size: 16px;
+  color: #000000;
+  font-size: 16px;
 }
 
 .Blocjams {
   height: auto;
   margin-top: 4rem;
   width: 100%;
-  }
+}
 
 .Blocjams-Background {
   background-color: #A96E97;
+  width: auto;
 }
 
 .Busybus {
- height: auto;
+  height: auto;
   margin-top: 5rem;
   width: 80%;
   margin-left: 10%;
@@ -156,75 +157,74 @@ font-size: 16px;
 }
 
 h4 {
-     font-size: 30px;
-     max-width: 375px;
-     text-align:center;
-     font-weight: bold;
-     margin-bottom: 20px;
-     margin-top: 30px;
-     margin: 2rem auto;
-     font-family: "lora";
-     position: relative;
-   }
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin: 2rem auto;
+  font-family: "lora";
+  position: relative;
+}
 
-   h4::before {
-     content: "";
-     display: block;
-     width: 130px;
-     height: 3px;
-     position: absolute;
-     left: -80px;
-     top: 50%;
-     background: #EB5757
-     }
+h4::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  position: absolute;
+  left: -80px;
+  top: 50%;
+  background: #EB5757
+}
 
-  h4::after {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 3px;
-    position: absolute;
-    right: -80px;
-    top: 50%;
-    background: #EB5757
-    }
+h4::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  position: absolute;
+  right: -80px;
+  top: 50%;
+  background: #EB5757
+}
 
 p.footer-copy {
-font-family: "lora";
-font-size: 20px;
-line-height: 167.2%;
-text-align: center;
-margin-top: 4rem;
-margin-bottom:5rem;
+  font-family: "lora";
+  font-size: 20px;
+  line-height: 200%;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
 }
 
 .Background a {
- display: inline;
- padding: 1.5rem;
+  display: inline;
+  padding: 1.5rem;
 }
 
 .Background {
- text-align: center;
- margin-top:10rem;
- background-color: #D4E4E9
- }
-
-.fab {
- width:30px;
- height:30px;
+  text-align: center;
+  width: auto;
+  margin-top: 10rem;
+  background-color: #D4E4E9
 }
 
-.copyright p  {
+.fab {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright p {
   font-size: 18px;
   margin-top: 5rem;
   text-align: center;
 }
 
 /* About.html */
-
 .picture {
   height: auto;
-  margin-top: 8rem;
+  margin-top: 6rem;
   width: 100%;
 }
 
@@ -238,48 +238,43 @@ margin-bottom:5rem;
 }
 
 .aboutme h5 {
-font-family: "Lora";
-font-size: 20px;
-font-weight:bold;
-text-align: center;
-line-height: 167.2%;
-margin-bottom: 5.5rem;
-color: #000000;
+  font-family: "Lora";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200%;
+  margin-bottom: 5.5rem;
+  color: #000000;
 }
 
 /* Contact.html */
-
-input {
+#input {
   font-size: 18px;
   font-family: "lora";
-  height: 40px;
-  width: 299px;
   margin: 1.8rem 0;
-  margin-bottom: 3.3rem;
+  margin-bottom: 5rem;
   padding: 1.1rem 1rem;
+  outline: none;
+  width: 100%
 }
 
 #styled {
   font-family: "lora";
   font-size: 18px;
-  width:299px;
-  height:257px;
-  margin-top: 3.3rem;
-  margin-left: 3%;
+  margin-top: 2.2rem;
+  padding: 1.1rem 1rem;
+  height: 20rem;
+  margin-bottom: 5rem;
+  outline: none;
+  width: 100%
 }
 
 #button {
   background-color: #9B51E0;
   font-family: "Roboto slab";
   font-size: 18px;
-  width:250px;
-  height:76px;
-  margin-top: 3.3rem;
-  margin-left: 2%;
-}
-
-#input {
-  margin-left: 3%;
+  width: 250px;
+  height: 76px;
 }
 
 #button:hover {
@@ -287,9 +282,8 @@ input {
 }
 
 /* Busybus.html */
-
 .busy-bus {
- height: auto;
+  height: auto;
   margin-bottom: 6rem;
   margin-top: 6rem;
   width: 80%;
@@ -298,28 +292,28 @@ input {
 }
 
 .Summary h6, .Problem h6, .Solution h6 {
-   text-align: center;
-   font-family: "Roboto slab";
-   font-size: 24px;
-   font-weight: bold;
-   line-height: 167.2%;
-   color: #9B51E0;
-   margin-bottom: 2rem;
- }
-
- /* Blocjam.html */
-.Bloc-jams {
-  height: auto;
-   margin-bottom: 6rem;
-   margin-top: 6rem;
-   width: 100%;
+  text-align: center;
+  font-family: "Roboto slab";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 200%;
+  color: #9B51E0;
+  margin-bottom: 2rem;
 }
 
-.blocjamcontainer p, .busybuscontainer p{
-font-family: "Lora";
-font-size: 16px;
-line-height: 167.2%;
-text-align: left;
+/* Blocjam.html */
+.Bloc-jams {
+  height: auto;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.blocjamcontainer p, .busybuscontainer p {
+  font-family: "Lora";
+  font-size: 16px;
+  line-height: 200%;
+  text-align: left;
 }
 
 .case-buttons {
@@ -327,8 +321,8 @@ text-align: left;
   font-family: "Roboto slab";
   text-align: center;
   border-radius: 10px;
-  width:250px;
-  height:60px;
+  width: 300px;
+  height: 60px;
   padding: 2rem 4rem 2rem;
 }
 
@@ -337,12 +331,11 @@ text-align: left;
 }
 
 /* Cirrus.html */
-
 .cir-rus {
-    margin-top: 10rem;
-    height: auto;
-    width: 100%;
-  }
+  margin-top: 10rem;
+  height: auto;
+  width: 100%;
+}
 
 .cirrus p {
   margin-left: 4%;
@@ -354,56 +347,56 @@ text-align: left;
   width: 28%;
   margin-left: 36%;
   margin-right: 36%
-  }
+}
 
-   h1 {
-    color: #9B51E0;
-    text-align: center;
-    font-family: "lora";
-    line-height: 167.2%;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 3rem;
-    line-height: 30px;
-  }
+h1 {
+  color: #9B51E0;
+  text-align: center;
+  font-family: "lora";
+  line-height: 200%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  line-height: 30px;
+}
 
- p {
+p {
   font-family: "Lora";
-  line-height: 167.2%;
+  line-height: 200%;
   font-size: 16px;
   text-align: left;
   margin-bottom: 2rem;
-  }
+}
 
-  .case-buttons {
-    margin-bottom: 4rem;
-  }
+.case-buttons {
+  margin-bottom: 4rem;
+}
 
 #projecticons img {
-  width:80px;
+  width: 60px;
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 13rem;
-  }
+}
 
 .underline {
-  background: linear-gradient(0deg, rgba(215,185,243,1) 0%, rgba(215,185,243,1) 16%, rgba(215,185,243,1) 16%, rgba(215,185,243,1) 41%, rgba(215,185,243,0) 41%);
+  background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
 }
 
 #role, #deliverables, #tools {
-    padding: 30px;
-    margin-top: 4rem;
+  padding: 30px;
+  margin-top: 4rem;
 }
 
 #projectdetails h2 {
-    padding-bottom:5px;
-    text-align:center;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
-li{
+li {
   font-family: "Lora";
   font-size: 16px;
-  line-height: 167.2%;
+  line-height: 200%;
   text-align: center;
 }
 
@@ -418,55 +411,54 @@ h3 {
 }
 
 h2 {
-   font-size:36px;
-   max-width: 375px;
-    font-weight:bold;
-    text-align:center;
-    margin: 2rem auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    position: relative;
-    font-family: "Roboto slab";
-  }
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  font-family: "Roboto slab";
+}
 
 .discovery-phase h2::before {
-     content: "";
-     display: block;
-     width: 88px;
-     height: 3px;
-     position: absolute;
-     left: -75px;
-     top: 50%;
-     background: #EB5757
-     }
+  content: "";
+  display: block;
+  width: 88px;
+  height: 3px;
+  position: absolute;
+  left: -75px;
+  top: 50%;
+  background: #EB5757
+}
 
 .discovery-phase h2::after {
-    content: "";
-    display: block;
-    width: 88px;
-    height: 3px;
-    position: absolute;
-    right: -75px;
-    top: 50%;
-    background: #EB5757
-    }
+  content: "";
+  display: block;
+  width: 88px;
+  height: 3px;
+  position: absolute;
+  right: -75px;
+  top: 50%;
+  background: #EB5757
+}
 
 b {
   font-weight: bold;
 }
 
 .projectimages {
-  padding-bottom:20px;
-  padding-top:15px;
-  margin-left:40%;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  margin-left: 40%;
 }
 
 .persona2, .persona1 {
   padding-top: 20px;
-  margin-left:26%;
+  margin-left: 26%;
 }
 
- h5 {
+h5 {
   text-align: center;
   font-family: "lora";
   font-size: 20px;
@@ -476,18 +468,13 @@ b {
   margin-top: 30px;
 }
 
- h6 {
+h6 {
   text-align: center;
   font-family: "lora";
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 15px;
-}
-
-.highpriority {
-  background-color: #F2F2F2;
-  margin-bottom: 4rem;
 }
 
 .highpriority p {
@@ -505,37 +492,38 @@ b {
 }
 
 .Sketch1 img, .Sketch2 img, .Sketch3 img, .Sketch4 img {
-    margin-bottom:20px;
-    margin-top:20px;
-  }
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 .sketch-wireframe p {
   margin-bottom: 1px;
 }
 
-.Sketch,  .wireframe, .Mockups{
+.Sketch, .wireframe, .Mockups, .highpriority {
   background-color: #F2F2F2;
   margin-bottom: 4rem;
+  width: auto;
 }
 
 .Wireframe1 img, .Wireframe2 img, .Wireframe3 img, .Wireframe4 img, .Wireframe5 {
-  margin-bottom:20px;
-  margin-top:20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   margin-left: 3%;
 }
 
 .color-pallette img, .Branding img {
-  margin-top:15px;
+  margin-top: 15px;
   margin-left: 3%;
 }
 
- .color-pallette img {
+.color-pallette img {
   margin-bottom: 4rem;
 }
 
 .Brandlogo {
   margin-left: 12%;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .typography img {
@@ -546,7 +534,7 @@ b {
   margin-bottom: 2rem;
 }
 
-.final-product  h3 {
+.final-product h3 {
   margin-top: 15rem;
 }
 
@@ -558,10 +546,424 @@ b {
   font-weight: bold;
   color: #56CCF2;
   margin-top: 10rem;
-  }
+}
 
 .Mockups1 img, .Mockups2 img, .Mockups3 img, .Mockups4 img {
-  margin-bottom:20px;
-  margin-top:20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   margin-left: 3%;
+}
+
+/*tablet*/
+@media screen and (min-width: 768px) {
+  div {
+    width: 90%;
+    margin: 0 auto;
   }
+
+  .aboutme h5 {
+    font-size: 30px;
+  }
+
+  #logo {
+    height: 70px;
+    width: 80px;
+    object-fit: contain;
+  }
+
+  p.footer-copy {
+    width: 68%;
+    font-size: 24px;
+    margin-left: 17%;
+  }
+
+  .copyright p {
+    font-size: 24px;
+  }
+
+  h4::before {
+    width: 280px;
+    left: -80px;
+  }
+
+  h4::after {
+    width: 280px;
+    right: -80px;
+  }
+
+  .fab {
+    width: 50px;
+    height: 50px;
+  }
+
+  .busybuscontainer P {
+    margin-left: 10%;
+  }
+
+  /* index.page */
+  .hero h1 {
+    text-align: center;
+  }
+
+  .down-arrow {
+    width: 7%;
+  }
+
+  /* Cirrus.page */
+  #projecticons img {
+    width: 90px;
+    margin-left: 11%;
+  }
+
+  .persona2, .persona1 {
+    margin-left: 34%;
+  }
+
+  .flow1 img, .flow2 img, .flow3 img, .flow4 img {
+    margin-left: 20%;
+  }
+
+  .Sketch1 img, .Sketch2 img, .Sketch3 img, .Sketch4 img {
+    margin-left: 24%;
+  }
+
+  .Wireframe1 img, .Wireframe2 img, .Wireframe3 img, .Wireframe4 img, .Wireframe5 {
+    margin-left: 24%;
+  }
+
+  .color-pallette img, .Branding img {
+    margin-left: 18%;
+  }
+
+  .Brandlogo {
+    margin-left: 25%;
+  }
+
+  .typography img {
+    margin-left: 22%;
+  }
+
+  .Cirrus-logo img {
+    margin-left: 18%;
+  }
+
+  .final-product p {
+    font-size: 32px;
+  }
+
+  .Mockups1 img, .Mockups2 img, .Mockups3 img, .Mockups4 img {
+    margin-left: 24%;
+  }
+
+  .projectimages {
+    margin-left: 45%;
+  }
+
+  .discovery-phase h2::before {
+    width: 240px;
+    height: 3px;
+    left: -80px;
+  }
+
+  .discovery-phase h2::after {
+    width: 240px;
+    height: 3px;
+    right: -80px;
+  }
+
+  .cloud {
+    width: 18%;
+    margin-left: 41%;
+    margin-right: 41%
+  }
+
+  /*desktop*/
+  @media screen and (min-width: 1440px) {
+    div {
+      width: 51%;
+      margin: 0 auto;
+    }
+
+    .picture {
+      width: 85%;
+      text-align: center;
+    }
+
+    p.footer-copy {
+      width: 58%;
+      font-size: 24px;
+      margin-left: 21%;
+    }
+
+    h4 {
+      font-size: 64px;
+    }
+
+    h4::before {
+      width: 480px;
+      left: -80px;
+    }
+
+    h4::after {
+      width: 480px;
+      right: -80px;
+    }
+
+    .copyright p {
+      font-size: 24px;
+    }
+
+    /* BusyBus.page */
+    .busybuscontainer p {
+      margin-left: 10%;
+    }
+
+    /* index.page */
+    .hero h1 {
+      font-size: 64px;
+      margin-top: 15rem;
+      margin-bottom: 40px;
+    }
+
+    .hero p {
+      text-align: center;
+      font-size: 33px;
+      margin-top: 6rem;
+      padding-left: 5px;
+      width: 160%;
+    }
+
+    .down-arrow {
+      width: 7%;
+    }
+
+    .hero h2 {
+      font-size: 37px;
+      margin-bottom: 40px;
+    }
+
+    .Cirrus-Background {
+      background-color: #D8C2ED;
+      width: auto;
+    }
+
+    .Cirrus, .Busybus {
+      width: 50%;
+      object-fit: contain;
+    }
+
+    .Blocjams {
+      width: 40%;
+    }
+
+    .Cirrus-Background h3, .Blocjams-Background h3, .Busybus-Background h3 {
+      text-align: right;
+      font-size: 36px;
+      margin-top: 40px;
+    }
+
+    .Cirrus-Background p, .Blocjams-Background P, .Busybus-Background P {
+      text-align: left;
+    }
+
+    /* Cirrus.html */
+    .cir-rus {
+      margin-top: 20rem;
+      height: auto;
+      width: 100%;
+    }
+
+    .cirrus p {
+      margin-left: 8%;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    #projecticons img {
+      width: 116px;
+      margin-left: 16%;
+      margin-top: 13rem;
+    }
+
+    .underline {
+      background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
+    }
+
+    #role, #deliverables, #tools {
+      padding: 30px;
+      margin-top: 4rem;
+    }
+
+    #projectdetails h2 {
+      padding-bottom: 5px;
+      text-align: center;
+    }
+
+    li {
+      font-family: "Lora";
+      font-size: 16px;
+      line-height: 167.2%;
+      text-align: center;
+    }
+
+    h3 {
+      color: #9B51E0;
+      text-align: center;
+      font-family: "Roboto slab";
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 36px;
+      max-width: 375px;
+      font-weight: bold;
+      text-align: center;
+      margin: 2rem auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+      font-family: "Roboto slab";
+    }
+
+    .discovery-phase h2::before {
+      content: "";
+      display: block;
+      width: 88px;
+      height: 3px;
+      position: absolute;
+      left: -75px;
+      top: 50%;
+      background: #EB5757
+    }
+
+    .discovery-phase h2::after {
+      content: "";
+      display: block;
+      width: 88px;
+      height: 3px;
+      position: absolute;
+      right: -75px;
+      top: 50%;
+      background: #EB5757
+    }
+
+    b {
+      font-weight: bold;
+    }
+
+    .projectimages {
+      padding-bottom: 20px;
+      padding-top: 15px;
+      margin-left: 40%;
+    }
+
+    .persona2, .persona1 {
+      padding-top: 20px;
+      margin-left: 26%;
+    }
+
+    h5 {
+      text-align: center;
+      font-family: "lora";
+      font-size: 20px;
+      font-weight: bold;
+      color: #9B51E0;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
+
+    h6 {
+      text-align: center;
+      font-family: "lora";
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+
+    .highpriority {
+      background-color: #F2F2F2;
+      margin-bottom: 4rem;
+    }
+
+    .highpriority p {
+      text-align: center;
+      font-family: "Lora";
+      font-size: 16px;
+      line-height: 200%;
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    .flow1 img, .flow2 img, .flow3 img, .flow4 img {
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+
+    .Sketch1 img, .Sketch2 img, .Sketch3 img, .Sketch4 img {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .sketch-wireframe p {
+      margin-bottom: 1px;
+    }
+
+    .Sketch, .wireframe, .Mockups {
+      background-color: #F2F2F2;
+      margin-bottom: 4rem;
+    }
+
+    .Wireframe1 img, .Wireframe2 img, .Wireframe3 img, .Wireframe4 img, .Wireframe5 {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 3%;
+    }
+
+    .color-pallette img, .Branding img {
+      margin-top: 15px;
+      margin-left: 3%;
+    }
+
+    .color-pallette img {
+      margin-bottom: 4rem;
+    }
+
+    .Brandlogo {
+      margin-left: 12%;
+      margin-top: 15px;
+    }
+
+    .typography img {
+      margin-left: 7%;
+    }
+
+    .Cirrus-logo img, .Branding img {
+      margin-bottom: 2rem;
+    }
+
+    .final-product h3 {
+      margin-top: 15rem;
+    }
+
+    .final-product p {
+      text-align: center;
+      font-family: "lora";
+      font-style: italic;
+      font-size: 22px;
+      font-weight: bold;
+      color: #56CCF2;
+      margin-top: 10rem;
+    }
+
+    .Mockups1 img, .Mockups2 img, .Mockups3 img, .Mockups4 img {
+      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-left: 3%;
+    }
