@@ -144,11 +144,12 @@ div {
 }
 
 .button-hero-cta {
-  color: #000000;
+  color: #FFFFFF;
   font-size: 16px;
+  font-weight: bold;
 }
 
-.Blocjams, .Cirrus, .Busybus, .dog-mockup {
+.blocjams, .cirrus, .busybus, .dog-mockup {
   height: auto;
   width: 100%;
   margin-bottom: 2rem;
@@ -245,6 +246,14 @@ p.footer-copy {
   color: #000000;
 }
 
+.photography img {
+  width: 100%
+}
+
+.photo-graphy h5 {
+  color: #000000;
+}
+
 /* Contact.html */
 #input {
   font-size: 18px;
@@ -304,7 +313,7 @@ p.footer-copy {
 }
 
 /* Blocjam.html */
-.Bloc-jams {
+.bloc-jams {
   height: auto;
   margin-bottom: 6rem;
   margin-top: 6rem;
@@ -501,7 +510,7 @@ h6 {
   margin-left: 3%;
 }
 
-.Sketch1 img {
+.sketch1 img {
   margin-bottom: 20px;
   margin-top: 20px;
   width: 100%;
@@ -511,24 +520,24 @@ h6 {
   margin-bottom: 1px;
 }
 
-.Sketch, .wireframe {
+.sketch, .wireframe {
   background-color: #F2F2F2;
   margin-bottom: 4rem;
 }
 
-.Mockups, .highpriority {
+.mockups, .highpriority {
   background-color: #F2F2F2;
   width: auto;
   margin-bottom: 4rem;
 }
 
-.Wireframe1 img {
+.wireframe1 img {
   margin-bottom: 20px;
   margin-top: 20px;
   width: 100%;
 }
 
-.Branding img {
+.branding img {
   margin-top: 15px;
   width: 100%;
 }
@@ -539,7 +548,7 @@ h6 {
   width: 100%;
 }
 
-.Brandlogo {
+.brandlogo {
   margin-left: 4%;
   margin-top: 15px;
   width: 100%;
@@ -550,7 +559,7 @@ h6 {
   margin-top: 10px;
 }
 
-.Cirrus-logo img, .Branding img {
+.cirrus-logo img, .branding img {
   margin-bottom: 2rem;
   width: 100%;
 }
@@ -569,27 +578,27 @@ h6 {
   margin-top: 10rem;
 }
 
-.Mockups1 img {
+.mockups1 img {
   margin-bottom: 20px;
   margin-top: 20px;
   width: 100%;
 }
 
 /* project2.html */
-.Doggo {
+.doggo {
   margin-top: 5rem;
   height: auto;
   width: 100%;
   margin-bottom: 8rem;
 }
 
-.BestBuddy {
+.bestbuddy {
   margin-left: 17%;
   width: auto;
   margin-bottom: 2rem;
 }
 
-.Doggo p {
+.doggo p {
   width: 80%;
   font-size: 20px;
   font-weight: Bold;
@@ -621,7 +630,7 @@ h6 {
   margin-top: 3rem;
 }
 
-.flow  {
+.flow {
   margin-bottom: 4rem;
 }
 
@@ -643,9 +652,16 @@ h6 {
     width: 70%;
     margin: 0 auto;
   }
+}
 
   .aboutme h5 {
     font-size: 30px;
+  }
+
+  .photography {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr 1fr .3fr;
   }
 
   #logo {
@@ -736,14 +752,14 @@ h6 {
   }
 
   /* project2.page */
-  .Doggo {
+  .doggo {
     margin-top: 10rem;
     height: auto;
     width: 100%;
     margin-bottom: 10rem;
   }
 
-  .BestBuddy {
+  .bestbuddy {
     margin-left: 34%;
     width: auto;
     margin-bottom: 2rem;
@@ -766,6 +782,17 @@ h6 {
     div {
       margin: 0 auto;
       width: 51%
+    }
+  }
+
+    .aboutme p {
+      width: 80%;
+      margin-left: 10%
+    }
+
+    .photo-graphy p {
+      width: 80%;
+      margin-left: 10%;
     }
 
     .picture {
@@ -831,12 +858,12 @@ h6 {
       margin-bottom: 80px;
     }
 
-    .Cirrus, .Blocjams {
+    .cirrus, .blocjams {
       width: 60%;
       margin-top: 2rem;
     }
 
-    .Busybus, .dog-mockup {
+    .busybus, .dog-mockup {
       width: 50%;
       margin-top: 2rem;
     }
@@ -971,7 +998,7 @@ h6 {
       margin-top: 3rem;
     }
 
-    .Brandlogo {
+    .brandlogo {
       margin-left: 5%;
       margin-top: 25px;
       width: 100%
@@ -982,7 +1009,7 @@ h6 {
     }
 
     /* project.page */
-    .BestBuddy {
+    .bestbuddy {
       margin-left: 42%;
       width: auto;
       margin-bottom: 2rem;
@@ -994,12 +1021,6 @@ h6 {
 
     .personas, .persona {
       margin-left: 25%;
-    }
-
-    .personas_one p {
-      width: 60%;
-      text-align: center;
-      margin-left: 22%;
     }
 
     .flow img, .wireframing img, .style-guide img, .final-mockup img {
