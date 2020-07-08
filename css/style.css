@@ -652,7 +652,6 @@ h6 {
     width: 70%;
     margin: 0 auto;
   }
-}
 
   .aboutme h5 {
     font-size: 30px;
@@ -783,7 +782,6 @@ h6 {
       margin: 0 auto;
       width: 51%
     }
-  }
 
     .aboutme p {
       width: 80%;
@@ -1026,5 +1024,3 @@ h6 {
     .flow img, .wireframing img, .style-guide img, .final-mockup img {
       width: 100%;
     }
-
-  
