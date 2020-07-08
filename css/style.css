@@ -648,135 +648,134 @@ h6 {
 
 /*tablet*/
 @media screen and (min-width: 768px) {
-  
   div {
     width: 70%;
     margin: 0 auto;
   }
-}
 
-.aboutme h5 {
-  font-size: 30px;
-}
+  .aboutme h5 {
+    font-size: 30px;
+  }
 
-.photography {
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-  grid-template-rows: 1fr 1fr .3fr;
-}
+  .photography {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr 1fr .3fr;
+  }
 
-#logo {
-  height: 70px;
-  width: 80px;
-  object-fit: contain;
-}
+  #logo {
+    height: 70px;
+    width: 80px;
+    object-fit: contain;
+  }
 
-p.footer-copy {
-  width: 86%;
-  font-size: 24px;
-  margin-left: 7%;
-}
+  p.footer-copy {
+    width: 86%;
+    font-size: 24px;
+    margin-left: 7%;
+  }
 
-.copyright p {
-  font-size: 24px;
-}
+  .copyright p {
+    font-size: 24px;
+  }
 
-h4::before {
-  width: 280px;
-  left: -80px;
-}
+  h4::before {
+    width: 280px;
+    left: -80px;
+  }
 
-h4::after {
-  width: 280px;
-  right: -80px;
-}
+  h4::after {
+    width: 280px;
+    right: -80px;
+  }
 
-.fab {
-  width: 50px;
-  height: 50px;
-}
+  .fab {
+    width: 50px;
+    height: 50px;
+  }
 
-.busybuscontainer P {
-  margin-left: 10%;
-}
+  .busybuscontainer P {
+    margin-left: 10%;
+  }
 
-/* Cirrus.page */
-#projecticons img {
-  width: 100px;
-  margin-left: 11%;
-}
+  /* Cirrus.page */
+  #projecticons img {
+    width: 100px;
+    margin-left: 11%;
+  }
 
-.cirrus p {
-  width: 70%;
-  margin-left: 17%
-}
+  .cirrus p {
+    width: 70%;
+    margin-left: 17%
+  }
 
-.persona2, .persona1 {
-  width: 50%;
-}
+  .persona2, .persona1 {
+    width: 50%;
+  }
 
-.final-product p {
-  font-size: 32px;
-}
+  .final-product p {
+    font-size: 32px;
+  }
 
-.projectimage {
-  margin-left: 36%;
-}
+  .projectimage {
+    margin-left: 36%;
+  }
 
-.discovery-phase h2::before {
-  width: 220px;
-  left: -140px;
-}
+  .discovery-phase h2::before {
+    width: 220px;
+    left: -140px;
+  }
 
-.discovery-phase h2::after {
-  width: 220px;
-  right: -140px;
-}
+  .discovery-phase h2::after {
+    width: 220px;
+    right: -140px;
+  }
 
-.cloud {
-  margin-left: 43%;
-}
+  .cloud {
+    margin-left: 43%;
+  }
 
-.hero p {
-  font-size: 24px;
-  width: 82%;
-  margin-left: 7.8%;
-}
+  .hero p {
+    font-size: 24px;
+    width: 82%;
+    margin-left: 7.8%;
+  }
 
-.hero h2 {
-  font-size: 37px;
-}
+  .hero h2 {
+    font-size: 37px;
+  }
 
-.down-arrow {
-  margin-left: 46%;
-  width: 7%;
-}
+  .down-arrow {
+    margin-left: 46%;
+    width: 7%;
+  }
 
-/* project2.page */
-.doggo {
-  margin-top: 10rem;
-  height: auto;
-  width: 100%;
-  margin-bottom: 10rem;
-}
+  /* project2.page */
+  .doggo {
+    margin-top: 10rem;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
 
-.bestbuddy {
-  margin-left: 34%;
-  width: auto;
-  margin-bottom: 2rem;
-}
+  .bestbuddy {
+    margin-left: 34%;
+    width: auto;
+    margin-bottom: 2rem;
+  }
 
-.project-images {
-  margin-left: 9%;
-}
+  .project-images {
+    margin-left: 9%;
+  }
 
-.personas, .persona {
-  margin-left: 25%;
-}
+  .personas, .persona {
+    margin-left: 25%;
+  }
 
-.flow img, .wireframing img, .style-guide img, .final-mockup img {
-  width: 100%;
-}
+  .flow img, .wireframing img, .style-guide img, .final-mockup img {
+    width: 100%;
+  }
+
 
 /*desktop*/
 @media screen and (min-width: 1440px) {
@@ -784,246 +783,245 @@ h4::after {
     margin: 0 auto;
     width: 51%
   }
-}
 
-.aboutme p {
-  width: 80%;
-  margin-left: 10%
-}
+  .aboutme p {
+    width: 80%;
+    margin-left: 10%
+  }
 
-.photo-graphy p {
-  width: 80%;
-  margin-left: 10%;
-}
+  .photo-graphy p {
+    width: 80%;
+    margin-left: 10%;
+  }
 
-.picture {
-  width: 85%;
-  text-align: center;
-  margin-top: 12rem;
-}
+  .picture {
+    width: 85%;
+    text-align: center;
+    margin-top: 12rem;
+  }
 
-p.footer-copy {
-  width: 53%;
-  font-size: 24px;
-  margin-left: 23%;
-}
+  p.footer-copy {
+    width: 53%;
+    font-size: 24px;
+    margin-left: 23%;
+  }
 
-h4 {
-  font-size: 64px;
-}
+  h4 {
+    font-size: 64px;
+  }
 
-h4::before {
-  width: 540px;
-}
+  h4::before {
+    width: 540px;
+  }
 
-h4::after {
-  width: 540px;
-}
+  h4::after {
+    width: 540px;
+  }
 
-.copyright p {
-  font-size: 24px;
-}
+  .copyright p {
+    font-size: 24px;
+  }
 
-.cloud {
-  width: 14%;
-  margin-left: 43%;
-}
+  .cloud {
+    width: 14%;
+    margin-left: 43%;
+  }
 
-/* BusyBus.page */
-.busybuscontainer p {
-  margin-left: 10%;
-}
+  /* BusyBus.page */
+  .busybuscontainer p {
+    margin-left: 10%;
+  }
 
-/* index.page */
-.hero h1 {
-  font-size: 64px;
-  margin-top: 25rem;
-  margin-bottom: 40px;
-}
+  /* index.page */
+  .hero h1 {
+    font-size: 64px;
+    margin-top: 25rem;
+    margin-bottom: 40px;
+  }
 
-.hero p {
-  text-align: center;
-  font-size: 33px;
-  margin-top: 6rem;
-  width: 75%;
-  margin-left: 12.5%;
-}
+  .hero p {
+    text-align: center;
+    font-size: 33px;
+    margin-top: 6rem;
+    width: 75%;
+    margin-left: 12.5%;
+  }
 
-.down-arrow {
-  margin-left: 48%;
-  width: 4%;
-  margin-bottom: 2rem;
-}
+  .down-arrow {
+    margin-left: 48%;
+    width: 4%;
+    margin-bottom: 2rem;
+  }
 
-.hero h2 {
-  margin-bottom: 80px;
-}
+  .hero h2 {
+    margin-bottom: 80px;
+  }
 
-.cirrus, .blocjams {
-  width: 60%;
-  margin-top: 2rem;
-}
+  .cirrus, .blocjams {
+    width: 60%;
+    margin-top: 2rem;
+  }
 
-.busybus, .dog-mockup {
-  width: 50%;
-  margin-top: 2rem;
-}
+  .busybus, .dog-mockup {
+    width: 50%;
+    margin-top: 2rem;
+  }
 
-.project1 p, .project2 p, .project3 p, .project4 p {
-  font-size: 24px;
-}
+  .project1 p, .project2 p, .project3 p, .project4 p {
+    font-size: 24px;
+  }
 
-.project4 p {
-  width: 70%
-}
+  .project4 p {
+    width: 70%
+  }
 
-.project1, .project2, .project3, .project4 {
-  padding: 5rem 5rem 5rem 10%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
+  .project1, .project2, .project3, .project4 {
+    padding: 5rem 5rem 5rem 10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
 
-/* Cirrus.html */
-.cir-rus {
-  height: auto;
-  width: 100%;
-}
+  /* Cirrus.html */
+  .cir-rus {
+    height: auto;
+    width: 100%;
+  }
 
-h1 {
-  text-align: center;
-  margin-bottom: 3rem;
-}
+  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 
-.cirrus p {
-  width: 65%;
-}
+  .cirrus p {
+    width: 65%;
+  }
 
-#projecticons img {
-  width: 130px;
-  margin-left: 14%;
-  margin-top: 13rem;
-}
+  #projecticons img {
+    width: 130px;
+    margin-left: 14%;
+    margin-top: 13rem;
+  }
 
-.underline {
-  background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
-}
+  .underline {
+    background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
+  }
 
-#role, #deliverables, #tools {
-  width: 33%;
-  float: left;
-  display: inline-block;
-  margin-bottom: 20rem;
-  padding: 0rem 2rem 0rem;
-}
+  #role, #deliverables, #tools {
+    width: 33%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 20rem;
+    padding: 0rem 2rem 0rem;
+  }
 
-#projectdetails h2 {
-  padding-bottom: 5px;
-  text-align: center;
-}
+  #projectdetails h2 {
+    padding-bottom: 5px;
+    text-align: center;
+  }
 
-h3 {
-  font-size: 36px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
+  h3 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
 
-h2 {
-  font-size: 36px;
-  margin-top: 7rem;
-}
+  h2 {
+    font-size: 36px;
+    margin-top: 7rem;
+  }
 
-.discovery-phase h2::before {
-  width: 549px;
-  height: 3px;
-  left: -370px;
-}
+  .discovery-phase h2::before {
+    width: 549px;
+    height: 3px;
+    left: -370px;
+  }
 
-.discovery-phase h2::after {
-  width: 549px;
-  height: 3px;
-  right: -370px;
-}
+  .discovery-phase h2::after {
+    width: 549px;
+    height: 3px;
+    right: -370px;
+  }
 
-.personasone {
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  width: 100%;
-  margin-left: 12%;
-}
+  .personasone {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin-left: 12%;
+  }
 
-.personastwo {
-  margin-left: 2rem;
-  width: 100%;
-  margin-right: 12%;
-}
+  .personastwo {
+    margin-left: 2rem;
+    width: 100%;
+    margin-right: 12%;
+  }
 
-.user-persona-container {
-  display: flex;
-  flex-direction: row;
-}
+  .user-persona-container {
+    display: flex;
+    flex-direction: row;
+  }
 
-.personasone p {
-  width: 60%;
-  text-align: center;
-  margin-left: 22%;
-}
+  .personasone p {
+    width: 60%;
+    text-align: center;
+    margin-left: 22%;
+  }
 
-.personastwo p {
-  width: 60%;
-  text-align: center;
-  margin-left: 20%
-}
+  .personastwo p {
+    width: 60%;
+    text-align: center;
+    margin-left: 20%
+  }
 
-.personas1 h5 {
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
+  .personas1 h5 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
 
-h6 {
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 15px;
-}
+  h6 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
 
-.sketch-wireframe p {
-  margin-bottom: 1px;
-}
+  .sketch-wireframe p {
+    margin-bottom: 1px;
+  }
 
-.color-pallette img, .Branding img {
-  width: 100%;
-}
+  .color-pallette img, .Branding img {
+    width: 100%;
+  }
 
-.color-pallette img {
-  margin-bottom: 4rem;
-  margin-top: 3rem;
-}
+  .color-pallette img {
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+  }
 
-.brandlogo {
-  margin-left: 5%;
-  margin-top: 25px;
-  width: 100%
-}
+  .brandlogo {
+    margin-left: 5%;
+    margin-top: 25px;
+    width: 100%
+  }
 
-.final-product p {
-  font-size: 43px;
-}
+  .final-product p {
+    font-size: 43px;
+  }
 
-/* project.page */
-.bestbuddy {
-  margin-left: 42%;
-  width: auto;
-  margin-bottom: 2rem;
-}
+  /* project.page */
+  .bestbuddy {
+    margin-left: 42%;
+    width: auto;
+    margin-bottom: 2rem;
+  }
 
-.project-images {
-  margin-left: 12%;
-}
+  .project-images {
+    margin-left: 12%;
+  }
 
-.personas, .persona {
-  margin-left: 25%;
-}
+  .personas, .persona {
+    margin-left: 25%;
+  }
 
-.flow img, .wireframing img, .style-guide img, .final-mockup img {
-  width: 100%;
-}
+  .flow img, .wireframing img, .style-guide img, .final-mockup img {
+    width: 100%;
+  }
