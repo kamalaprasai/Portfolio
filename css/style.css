@@ -54,12 +54,12 @@ div {
 
 .hero p {
   font-family: "Lora";
-  font-size: 24px;
+  font-size: 20px;
   line-height: 200%;
   text-align: left;
   margin-top: 4rem;
   padding-left: 5px;
-  width: 89%;
+  width: 85%;
   margin-left: 9%;
 }
 
@@ -738,7 +738,7 @@ h6 {
   .hero p {
     font-size: 24px;
     width: 82%;
-    margin-left: 7.8%;
+    margin-left: 10%;
   }
 
   .hero h2 {
@@ -841,10 +841,10 @@ h6 {
 
   .hero p {
     text-align: center;
-    font-size: 33px;
+    font-size: 24px;
     margin-top: 6rem;
-    width: 75%;
-    margin-left: 12.5%;
+    width: 57%;
+    margin-left: 21%;
   }
 
   .down-arrow {
