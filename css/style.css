@@ -590,10 +590,10 @@ h6 {
   height: auto;
   width: 100%;
   margin-bottom: 8rem;
+  text-align: center;
 }
 
 .bestbuddy {
-  margin-left: 17%;
   width: auto;
   margin-bottom: 2rem;
 }
@@ -613,6 +613,7 @@ h6 {
 
 .personas, .persona {
   margin-left: 18%;
+  width: 50%;
 }
 
 .flow img, .wireframing img, .style-guide img, .final-mockup img {
@@ -694,14 +695,10 @@ h6 {
     height: 50px;
   }
 
-  .busybuscontainer P {
-    margin-left: 10%;
-  }
-
   /* Cirrus.page */
   #projecticons img {
-    width: 100px;
-    margin-left: 11%;
+    width: 80px;
+    margin-left: 13%;
   }
 
   .cirrus p {
@@ -710,7 +707,8 @@ h6 {
   }
 
   .persona2, .persona1 {
-    width: 50%;
+    width: 30%;
+    margin-left: 33%;
   }
 
   .final-product p {
@@ -719,6 +717,14 @@ h6 {
 
   .projectimage {
     margin-left: 36%;
+  }
+
+  .projectimages {
+    width: 15%
+  }
+
+  .projectimage {
+    width: 20%
   }
 
   .discovery-phase h2::before {
@@ -754,14 +760,8 @@ h6 {
   .doggo {
     margin-top: 10rem;
     height: auto;
-    width: 100%;
+    width: 80%;
     margin-bottom: 10rem;
-  }
-
-  .bestbuddy {
-    margin-left: 34%;
-    width: auto;
-    margin-bottom: 2rem;
   }
 
   .project-images {
@@ -769,7 +769,8 @@ h6 {
   }
 
   .personas, .persona {
-    margin-left: 25%;
+    margin-left: 36%;
+    width: 30%;
   }
 
   .flow img, .wireframing img, .style-guide img, .final-mockup img {
@@ -778,7 +779,7 @@ h6 {
 }
 
 /*desktop*/
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   div {
     margin: 0 auto;
     width: 51%
@@ -811,11 +812,11 @@ h6 {
   }
 
   h4::before {
-    width: 540px;
+    width: 515px;
   }
 
   h4::after {
-    width: 540px;
+    width: 515px;
   }
 
   .copyright p {
@@ -825,11 +826,6 @@ h6 {
   .cloud {
     width: 14%;
     margin-left: 43%;
-  }
-
-  /* BusyBus.page */
-  .busybuscontainer p {
-    margin-left: 10%;
   }
 
   /* index.page */
@@ -849,8 +845,7 @@ h6 {
 
   .down-arrow {
     margin-left: 48%;
-    width: 4%;
-    margin-bottom: 2rem;
+    width: 2%;
   }
 
   .hero h2 {
@@ -898,8 +893,8 @@ h6 {
   }
 
   #projecticons img {
-    width: 130px;
-    margin-left: 14%;
+    width: 80px;
+    margin-left: 16%;
     margin-top: 13rem;
   }
 
@@ -908,11 +903,17 @@ h6 {
   }
 
   #role, #deliverables, #tools {
-    width: 33%;
     float: left;
-    display: inline-block;
     margin-bottom: 20rem;
     padding: 0rem 2rem 0rem;
+  }
+
+  #role, #tools {
+    width: 39%;
+  }
+
+  #deliverables {
+    width: 21%;
   }
 
   #projectdetails h2 {
@@ -927,7 +928,7 @@ h6 {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 30px;
     margin-top: 7rem;
   }
 
@@ -947,13 +948,13 @@ h6 {
     margin-right: 2rem;
     margin-bottom: 2rem;
     width: 100%;
-    margin-left: 12%;
+    margin-left: 15%;
   }
 
   .personastwo {
     margin-left: 2rem;
     width: 100%;
-    margin-right: 12%;
+    margin-right: 15%;
   }
 
   .user-persona-container {
@@ -984,6 +985,10 @@ h6 {
     margin-top: 15px;
   }
 
+  .flow2 img {
+    width: 70%;
+  }
+
   .sketch-wireframe p {
     margin-bottom: 1px;
   }
@@ -1009,17 +1014,24 @@ h6 {
 
   /* project.page */
   .bestbuddy {
-    margin-left: 42%;
-    width: auto;
-    margin-bottom: 2rem;
+    margin-left: 0.7%;
   }
 
   .project-images {
     margin-left: 12%;
   }
 
-  .personas, .persona {
-    margin-left: 25%;
+  .personas-one {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    margin-left: 15%;
+  }
+
+  .personas-two {
+    margin-left: 2rem;
+    width: 100%;
+    margin-right: 15%;
   }
 
   .flow img, .wireframing img, .style-guide img, .final-mockup img {
