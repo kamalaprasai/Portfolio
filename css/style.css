@@ -894,7 +894,6 @@ h6 {
   #projecticons img {
     width: 80px;
     margin-left: 16%;
-    margin-top: 13rem;
   }
 
   .underline {
@@ -907,11 +906,12 @@ h6 {
   }
 
   #projectdetails {
-    display: inline-block
+    display: flex;
+    margin-bottom: 12rem;
   }
 
-  .projectgroup {
-    display: inline-block
+  .projecticons {
+    display: flex;
   }
 
   #projectdetails h2 {
@@ -1001,7 +1001,6 @@ h6 {
   }
 
   .brandlogo {
-    margin-left: 5%;
     margin-top: 25px;
     width: 100%
   }
