@@ -549,7 +549,6 @@ h6 {
 }
 
 .brandlogo {
-  margin-left: 4%;
   margin-top: 15px;
   width: 100%;
 }
@@ -908,6 +907,10 @@ h6 {
   }
 
   #projectdetails {
+    display: inline-block
+  }
+
+  .projectgroup {
     display: inline-block
   }
 
