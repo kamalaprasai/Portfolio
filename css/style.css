@@ -60,7 +60,7 @@ div {
   margin-top: 4rem;
   padding-left: 5px;
   width: 85%;
-  margin-left: 9%;
+  margin-left: 7.6%;
 }
 
 .down-arrow {
@@ -172,7 +172,7 @@ h4::before {
   width: 40px;
   height: 3px;
   position: absolute;
-  left: -30px;
+  left: -28px;
   top: 50%;
   background: #EB5757
 }
@@ -183,7 +183,7 @@ h4::after {
   width: 40px;
   height: 3px;
   position: absolute;
-  right: -30px;
+  right: -28px;
   top: 50%;
   background: #EB5757
 }
@@ -384,7 +384,7 @@ p {
 
 #projecticons img {
   width: 60px;
-  margin-left: 8%;
+  margin-left: 8.8%;
   margin-right: 8%;
   margin-top: 13rem;
 }
@@ -433,10 +433,10 @@ h2 {
 .discovery-phase h2::before {
   content: "";
   display: block;
-  width: 88px;
+  width: 40px;
   height: 3px;
   position: absolute;
-  left: -75px;
+  left: -30px;
   top: 50%;
   background: #EB5757
 }
@@ -444,10 +444,10 @@ h2 {
 .discovery-phase h2::after {
   content: "";
   display: block;
-  width: 88px;
+  width: 40px;
   height: 3px;
   position: absolute;
-  right: -75px;
+  right: -30px;
   top: 50%;
   background: #EB5757
 }
@@ -900,7 +900,7 @@ h6 {
     background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
   }
 
-  .#role, #deliverables, #tools {
+  #role, #deliverables, #tools {
     margin-bottom: 20rem;
     padding: 0rem 2rem 0rem;
   }
