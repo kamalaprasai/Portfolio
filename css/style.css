@@ -902,18 +902,13 @@ h6 {
     background: linear-gradient(0deg, rgba(215, 185, 243, 1) 0%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 16%, rgba(215, 185, 243, 1) 41%, rgba(215, 185, 243, 0) 41%);
   }
 
-  #role, #deliverables, #tools {
-    float: left;
+  .#role, #deliverables, #tools {
     margin-bottom: 20rem;
     padding: 0rem 2rem 0rem;
   }
 
-  #role, #tools {
-    width: 39%;
-  }
-
-  #deliverables {
-    width: 21%;
+  #projectdetails {
+    display: inline-block
   }
 
   #projectdetails h2 {
