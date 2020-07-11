@@ -169,10 +169,10 @@ h4 {
 h4::before {
   content: "";
   display: block;
-  width: 90px;
+  width: 40px;
   height: 3px;
   position: absolute;
-  left: -80px;
+  left: -30px;
   top: 50%;
   background: #EB5757
 }
@@ -180,10 +180,10 @@ h4::before {
 h4::after {
   content: "";
   display: block;
-  width: 90px;
+  width: 40px;
   height: 3px;
   position: absolute;
-  right: -80px;
+  right: -30px;
   top: 50%;
   background: #EB5757
 }
