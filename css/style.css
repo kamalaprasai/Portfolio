@@ -10,10 +10,12 @@ a:link {
   text-decoration: none;
 }
 
-div {
-  padding: 2rem 3rem 2rem;
-  margin: 0 auto
-}
+/*mobile*/
+@media screen and (min-width: 414px) {
+  div {
+    padding: 2rem 3rem 2rem;
+    margin: 0 auto;
+  }
 
 .active {
   display: block;
@@ -472,7 +474,7 @@ b {
 
 .persona2, .persona1 {
   padding-top: 20px;
-  margin-left: 26%;
+  margin-left: 27%;
 }
 
 h5 {
@@ -892,7 +894,6 @@ h6 {
   }
 
   #projecticons img {
-    width: 80px;
     margin-left: 16%;
   }
 
@@ -901,8 +902,19 @@ h6 {
   }
 
   #role, #deliverables, #tools {
-    margin-bottom: 20rem;
     padding: 0rem 2rem 0rem;
+  }
+
+  #role {
+    margin-left: 4%;
+  }
+
+  #deliverables {
+    margin-left: 1%;
+  }
+
+  #tools {
+    margin-right: 5.5%;
   }
 
   #projectdetails {
