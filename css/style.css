@@ -472,7 +472,7 @@ b {
 
 .persona2, .persona1 {
   padding-top: 20px;
-  margin-left: 27%;
+  margin-left: 26%;
 }
 
 h5 {
@@ -608,10 +608,11 @@ h6 {
 .project-images {
   width: 100px;
   margin-bottom: 4%;
+  margin-left: 1%
 }
 
 .personas, .persona {
-  margin-left: 18%;
+  margin-left: 25%;
   width: 50%;
 }
 
@@ -706,8 +707,7 @@ h6 {
   }
 
   .persona2, .persona1 {
-    width: 30%;
-    margin-left: 33%;
+    width: 50%;
   }
 
   .final-product p {
@@ -765,11 +765,6 @@ h6 {
 
   .project-images {
     margin-left: 9%;
-  }
-
-  .personas, .persona {
-    margin-left: 36%;
-    width: 30%;
   }
 
   .flow img, .wireframing img, .style-guide img, .final-mockup img {
@@ -1020,8 +1015,16 @@ h6 {
   }
 
   /* project.page */
+  .doggo {
+    margin-left: 7%;
+  }
+
   .bestbuddy {
-    margin-left: 0.7%;
+    margin-left: 4.8%;
+  }
+
+  .doggo p {
+    margin-left: 13%;
   }
 
   .project-images {
