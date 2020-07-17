@@ -10,12 +10,10 @@ a:link {
   text-decoration: none;
 }
 
-/*mobile*/
-@media screen and (min-width: 414px) {
-  div {
-    padding: 2rem 3rem 2rem;
-    margin: 0 auto;
-  }
+div {
+  padding: 2rem 3rem 2rem;
+  margin: 0 auto
+}
 
 .active {
   display: block;
