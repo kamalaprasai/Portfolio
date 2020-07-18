@@ -419,6 +419,10 @@ h3 {
   margin-top: 20px;
 }
 
+.problem img, .solution img {
+  margin-left: 38%;
+}
+
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -433,10 +437,10 @@ h2 {
 .discovery-phase h2::before {
   content: "";
   display: block;
-  width: 40px;
+  width: 100px;
   height: 3px;
   position: absolute;
-  left: -30px;
+  left: -87px;
   top: 50%;
   background: #EB5757
 }
@@ -444,10 +448,10 @@ h2 {
 .discovery-phase h2::after {
   content: "";
   display: block;
-  width: 40px;
+  width: 100px;
   height: 3px;
   position: absolute;
-  right: -30px;
+  right: -87px;
   top: 50%;
   background: #EB5757
 }
@@ -701,6 +705,10 @@ h6 {
     margin-left: 13%;
   }
 
+  .problem img, .solution img {
+    margin-left: 42%;
+  }
+
   .cirrus p {
     width: 70%;
     margin-left: 17%
@@ -884,6 +892,10 @@ h6 {
 
   .cirrus p {
     width: 65%;
+  }
+
+  .problem img, .solution img {
+    margin-left: 45%;
   }
 
   #projecticons img {
