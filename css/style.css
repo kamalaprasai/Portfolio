@@ -15,30 +15,81 @@ div {
   margin: 0 auto
 }
 
-.active {
-  display: block;
-}
-
 #logo {
-  float: left;
-  height: 40px;
-  width: 40px;
+  margin-left: 3rem;
   object-fit: contain;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  width: 40px;
 }
 
-.nav-links li a:hover, .fab:hover {
+/*navigation*/
+.navbar {
+  background-color: white;
+  font-family: "Roboto slab";
+  font-size: 1.4rem;
+  margin: auto;
+  width: 100%;
+  z-index: 10;
+}
+
+.main-nav {
+  background-color: #FAF8F0;
+  list-style-type: none;
+  display: none;
+  padding: 2rem;
+  z-index: 3;
+}
+
+main-nav .current {
   color: #9B51E0;
 }
 
-.nav-links li a {
-  color: black;
-  display: block;
+.nav-links {
+  color: #000000;
   text-decoration: none;
-  font: normal 16px "Lora";
-  line-height: 200%;
+}
+
+.nav-links:hover, .fab:hover {
+  color: #9B51E0;
+}
+
+.main-nav li {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: .5rem;
+  text-align: center;
+  line-height: 4.3rem;
+}
+
+li {
+  display: block;
+}
+
+ul {
+  margin: 0;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  font-size: 2.5rem;
+  position: absolute;
+  margin: 2rem 2rem 0rem 2rem;
+  right: 20px;
+}
+
+.navbar a {
+  color: #000000;
+  cursor: pointer;
   font-weight: bold;
-  Float: right;
-  padding: 1rem;
+  display: block;
+  font-family: "Roboto slab";
+  font-size: 1.7rem;
+  text-decoration: none;
+}
+
+.active {
+  display: block;
 }
 
 /* INDEX.HTML */
@@ -57,7 +108,7 @@ div {
   font-size: 1.8rem;
   line-height: 2.7rem;
   margin-top: 4rem;
-  width: 80%;
+  width: 89%;
   margin: 0 auto
 }
 
@@ -228,7 +279,7 @@ p.footer-copy {
 
 /* About.html */
 .picture {
-  margin-top: 6rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -408,6 +459,7 @@ li {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 1rem;
+  color: #000000;
 }
 
 .problem img, .solution img {
@@ -641,6 +693,25 @@ p.paragraph-medium-bold {
   margin-top: 10rem;
 }
 
+/**back to top**/
+#myBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 9px;
+  z-index: 99;
+  font-size: 17px;
+  border: none;
+  background-color: #9B51E0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+#myBtn:hover {
+  color: white;
+  background-color: #9b51e0;
+}
+
 /* project2.html */
 .doggo {
   margin-top: 5rem;
@@ -731,6 +802,60 @@ p.paragraph-medium-bold {
 
   h4 {
     font-size: 2.5rem;
+  }
+
+  .navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 85px;
+    z-index: 10;
+  }
+
+  .main-nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2.2rem;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .main-nav a {
+    x font-size: 1.7rem;
+    font-family: "lora";
+    margin-right: 40px;
+  }
+
+  .main-nav .current {
+    color: #9B51E0;
+  }
+
+  .nav-links {
+    color: black;
+    font-size: 1.7rem;
+    font-family: "lora";
+    margin-right: 40px;
+    text-decoration: none;
+  }
+
+  #logo {
+    margin-top: 1.2rem;
+    display: inline;
+    margin-left: 3rem;
+    object-fit: contain;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .form-container {
+    padding: 3rem 15rem 5rem;
   }
 
   /* Cirrus.page */
@@ -895,7 +1020,6 @@ p.paragraph-medium-bold {
   }
 
   /* Cirrus.html */
-
   .projectgroup img {
     margin-bottom: 0rem;
   }
@@ -948,7 +1072,7 @@ p.paragraph-medium-bold {
   .userstories-container {
     padding: 0rem 15rem 0rem;
     text-align: center;
-}
+  }
 
   .color-pallette img, .Branding img {
     width: 100%;
