@@ -8,25 +8,30 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,562;0,600;0,700;1,400;1,500;1,562;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/iaj7hdi.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/solid.css" integrity="sha384-VUnOJnDrNS0aVOhF6puq5SPJOP5oOvIO6n54m14E2/OHv6DU1gklJ4EImoD382c5" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/regular.css" integrity="sha384-gr19od0wAxe2+mYHEXvS7Y1ppn+ESoAQzTYGPauVJYyAYYl0NBQaKveeQnzez2Rm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/brands.css" integrity="sha384-+B+cmd37r9agFUqHw5ABups/+o97SqA/Y6S5b3ly2q0ABacloQs0HZOQAX1NpJhF" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/fontawesome.css" integrity="sha384-jUGOH+gYMCfz2jbO6DW8vojES/a323h7dcoT6qI7Bvod9mew/wwTZryjccmaMOkf" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <header>
-    <div class="B-container">
-      <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
-      <ul class="nav-links">
-        <li>
-          <a href="index.html" class="nav-links">Project</a>
-        </li>
-        <li>
-          <a href="about-me.html" class="nav-links">About</a>
-        </li>
-        <li>
-          <a href="contact.html" class="nav-links">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </header>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
+    <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="index.html" class="current">Projects</a>
+      </li>
+      <li>
+        <a href="about.html" class="nav-links">About</a>
+      </li>
+      <li>
+        <a href="contact.html" class="nav-links">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
 
   <!--header-->
@@ -55,8 +60,6 @@
     <h6>Solution</h6>
     <p>BusyBus displays the next bus and destination according to arrival time, as well as current bus location. It also show a list of buses that runs through that stop will be shown.</p>
   </div>
-
-  <button onclick="topFunction()" id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
 
   <!--footer-->
   <footer>
