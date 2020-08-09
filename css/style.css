@@ -31,22 +31,30 @@ div {
   margin: auto;
   width: 100%;
   z-index: 10;
+  font-weight: 600;
 }
 
 .main-nav {
-  background-color: #FAF8F0;
+  background-color: #ebe2f4;
   list-style-type: none;
   display: none;
   padding: 2rem;
   z-index: 3;
 }
 
-main-nav .current {
+.main-nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav .current {
   color: #9B51E0;
 }
 
-.nav-links {
-  color: #000000;
+.navbar a {
+  cursor: pointer;
+  display: block;
+  font-size: 1.8rem;
   text-decoration: none;
 }
 
@@ -60,32 +68,21 @@ main-nav .current {
   padding-top: .5rem;
   text-align: center;
   line-height: 4.3rem;
-}
-
-li {
   display: block;
 }
 
 ul {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .navbar-toggle {
   cursor: pointer;
   font-size: 2.5rem;
   position: absolute;
-  margin: 2rem 2rem 0rem 2rem;
+  margin: 1.6rem 2rem 0rem 2rem;
   right: 20px;
-}
-
-.navbar a {
-  color: #000000;
-  cursor: pointer;
-  font-weight: bold;
-  display: block;
-  font-family: "Roboto slab";
-  font-size: 1.7rem;
-  text-decoration: none;
 }
 
 .active {
@@ -384,9 +381,11 @@ textarea#styled {
 
 /* Cirrus.html */
 .cir-rus {
-  margin-top: 7rem;
   width: 100%;
-  margin-bottom: 2rem;
+}
+
+.cirrus-background {
+  background-color: #D8C2ED;
 }
 
 .cirrus p {
@@ -472,7 +471,6 @@ h2 {
   font-weight: 600;
   text-align: center;
   font-family: "Roboto slab";
-  margin-bottom: 2rem;
 }
 
 b {
@@ -621,11 +619,17 @@ p.paragraph-medium-bold {
 }
 
 .flow1 img, .flow2 img, .flow3 img, .flow4 img {
-  margin-bottom: 20px;
-  margin-top: 10px;
   width: 90%;
   margin: 0 auto;
   display: block;
+}
+
+.flow1 h3 {
+  margin-top: 10x;
+}
+
+.flow2 img {
+  width: 60%;
 }
 
 .sketch1 img, .wireframe1 img, .Usability-Testing img, .mockups1 img {
@@ -647,7 +651,7 @@ p.paragraph-medium-bold {
   margin-bottom: 4rem;
 }
 
-.mockups, .highpriority {
+.mockups, .highpriority, .wireframe {
   background-color: #F2F2F2;
   width: auto;
   margin-bottom: 4rem;
@@ -656,6 +660,12 @@ p.paragraph-medium-bold {
 .branding img {
   margin-top: 15px;
   width: 100%;
+}
+
+.Usability-Testing h4 {
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .color-pallette img {
@@ -714,7 +724,6 @@ p.paragraph-medium-bold {
 
 /* project2.html */
 .doggo {
-  margin-top: 5rem;
   width: 100%;
   text-align: center;
 }
@@ -724,6 +733,7 @@ p.paragraph-medium-bold {
   margin: 0 auto;
   display: block;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .bestbuddy p {
@@ -764,7 +774,11 @@ p.paragraph-medium-bold {
   background-color: #EB5757;
 }
 
-.final-mockup {
+.doggo-background {
+  background-color: #F39A9A;
+}
+
+.final-mockup, .doggo-Background {
   width: auto;
 }
 
@@ -907,6 +921,10 @@ p.paragraph-medium-bold {
     width: 66%;
   }
 
+  .user-research h3 {
+    margin-top: 25px;
+  }
+
   h3 {
     margin-top: 60px;
   }
@@ -916,184 +934,172 @@ p.paragraph-medium-bold {
     width: 5%;
   }
 
-  /* project2.page */
-  .doggo {
-    margin-top: 7rem;
-    height: auto;
-  }
+  /*desktop*/
+  @media screen and (min-width: 1280px) {
+    div {
+      margin: 0 auto;
+      width: 51%
+    }
 
-  .project-images {
-    margin-left: 9%;
-  }
+    .aboutme p {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+    }
 
-  .flow img, .wireframing img, .style-guide img, .final-mockup img {
-    width: 100%;
-  }
-}
+    .picture {
+      width: 50%;
+      margin-left: 24%
+    }
 
-/*desktop*/
-@media screen and (min-width: 1280px) {
-  div {
-    margin: 0 auto;
-    width: 51%
-  }
+    h4 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+    }
 
-  .aboutme p {
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-  }
+    .content-box-narrow {
+      margin: 0 auto;
+      width: 20%;
+    }
 
-  .picture {
-    width: 50%;
-    margin-top: 8rem;
-    margin-left: 24%
-  }
+    p.footer-copy {
+      padding: 0rem 38rem 0rem;
+      font-size: 2rem;
+    }
 
-  h4 {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
+    .btn {
+      font-size: 2rem;
+    }
 
-  .content-box-narrow {
-    margin: 0 auto;
-    width: 20%;
-  }
+    .cloud {
+      margin-left: 43%;
+    }
 
-  p.footer-copy {
-    padding: 0rem 38rem 0rem;
-    font-size: 2rem;
-  }
+    /* index.page */
+    .hero p {
+      padding: 0rem 10rem 0rem;
+      display: block;
+      margin: 0 auto
+    }
 
-  .btn {
-    font-size: 2rem;
-  }
+    .down-arrow {
+      margin-left: 48%;
+      width: 2%;
+    }
 
-  .cloud {
-    margin-left: 43%;
-  }
+    .cirrus, .blocjams {
+      width: 50%;
+      margin-top: 2rem;
+    }
 
-  /* index.page */
-  .hero h1 {
-    margin-top: 15rem;
-  }
+    .busybus, .dog-mockup {
+      width: 50%;
+      margin-top: 2rem;
+    }
 
-  .hero p {
-    padding: 0rem 10rem 0rem;
-    display: block;
-    margin: 0 auto
-  }
+    .project1 p, .project2 p, .project3 p, .project4 p {
+      width: 80%;
+    }
 
-  .down-arrow {
-    margin-left: 48%;
-    width: 2%;
-  }
+    .project1, .project2, .project3, .project4 {
+      padding: 5rem 10rem 5rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
 
-  .cirrus, .blocjams {
-    width: 50%;
-    margin-top: 2rem;
-  }
+    .form-container {
+      padding: 3rem 40rem 5rem;
+    }
 
-  .busybus, .dog-mockup {
-    width: 50%;
-    margin-top: 2rem;
-  }
+    /* Cirrus.html */
+    .projectgroup img {
+      margin-bottom: 0rem;
+    }
 
-  .project1 p, .project2 p, .project3 p, .project4 p {
-    width: 80%;
-  }
+    .comp-logos {
+      padding: 0rem 10rem 0rem;
+    }
 
-  .project1, .project2, .project3, .project4 {
-    padding: 5rem 10rem 5rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-  }
+    #role, #deliverables, #tools {
+      padding: 0rem 2rem 0rem;
+    }
 
-  .form-container {
-    padding: 3rem 40rem 5rem;
-  }
+    h3 {
+      font-size: 2.7rem;
+    }
 
-  /* Cirrus.html */
-  .projectgroup img {
-    margin-bottom: 0rem;
-  }
+    h2 {
+      font-size: 36px;
+      margin-top: 2rem;
+    }
 
-  .comp-logos {
-    padding: 0rem 10rem 0rem;
-  }
+    .user-research h3 {
+      margin-top: 35px;
+    }
 
-  #role, #deliverables, #tools {
-    padding: 0rem 2rem 0rem;
-  }
+    .hero h1 {
+      font-size: 40px;
+    }
 
-  h3 {
-    font-size: 2.7rem;
-  }
+    .survey1, .survey2 {
+      display: flex;
+      padding: 0rem 30rem 0rem;
+    }
 
-  h2 {
-    font-size: 36px;
-    margin-top: 7rem;
-  }
+    .survey-text {
+      margin: 0 auto;
+      text-align: center;
+      padding: 0rem 3rem 0rem;
+    }
 
-  .survey1, .survey2 {
-    display: flex;
-    padding: 0rem 30rem 0rem;
-  }
+    .complogos {
+      display: flex;
+      padding: 0rem 10rem 0rem;
+    }
 
-  .survey-text {
-    margin: 0 auto;
-    text-align: center;
-    padding: 0rem 3rem 0rem;
-  }
+    .personasone {
+      margin-right: 2rem;
+      width: 100%;
+      margin-left: 15%;
+    }
 
-  .complogos {
-    display: flex;
-    padding: 0rem 10rem 0rem;
-  }
+    .personastwo {
+      margin-left: 2rem;
+      width: 100%;
+      margin-right: 15%;
+    }
 
-  .personasone {
-    margin-right: 2rem;
-    width: 100%;
-    margin-left: 15%;
-  }
+    .userstories-container {
+      padding: 0rem 15rem 0rem;
+      text-align: center;
+    }
 
-  .personastwo {
-    margin-left: 2rem;
-    width: 100%;
-    margin-right: 15%;
-  }
+    .color-pallette img, .Branding img {
+      width: 100%;
+    }
 
-  .userstories-container {
-    padding: 0rem 15rem 0rem;
-    text-align: center;
-  }
+    .color-pallette img {
+      margin-bottom: 4rem;
+      margin-top: 3rem;
+    }
 
-  .color-pallette img, .Branding img {
-    width: 100%;
-  }
+    .brandlogo {
+      margin-top: 25px;
+      width: 100%
+    }
 
-  .color-pallette img {
-    margin-bottom: 4rem;
-    margin-top: 3rem;
-  }
+    .final-product p {
+      font-size: 43px;
+    }
 
-  .brandlogo {
-    margin-top: 25px;
-    width: 100%
-  }
+    /* project.page */
+    .doggo {
+      width: 80%
+    }
 
-  .final-product p {
-    font-size: 43px;
+    .bestbuddy p {
+      padding: 0rem 6rem 0rem;
+    }
   }
-
-  /* project.page */
-  .doggo {
-    width: 80%
-  }
-
-  .bestbuddy p {
-    padding: 0rem 6rem 0rem;
-  }
-}
