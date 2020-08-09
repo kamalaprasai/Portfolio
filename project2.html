@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <nav class="navbar" id="top">
     <span class="navbar-toggle" id="js-navbar-toggle"><i class="fas fa-bars"></i></span>
     <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
     <ul class="main-nav" id="js-menu">
@@ -30,13 +30,19 @@
       <li>
         <a href="contact.html" class="nav-links">Contact</a>
       </li>
+      <li>
+        <a class="nav-links" href="https://drive.google.com/file/d/1R8pkzSO6GjnARnaFS9TOKrDdZFD_ZTrp/view?usp=sharing" target="_blank">Resume</a>
+      </li>
     </ul>
   </nav>
 
 
-  <div class="doggo">
-    <img class="doggo" src="images/doggo.png" alt="doggo">
-  </div>
+  <section class="doggo-background">
+    <div class="doggo">
+      <img class="doggo" src="images/doggo.png" alt="doggo">
+    </div>
+  </section>
+
 
   <div class="bestbuddy">
     <img src="images/bestbuddy.png" alt="bestbuddy">
@@ -106,8 +112,7 @@
   </div>
 
   <div class="discovery-phase">
-    <span class="border"></span>
-    <h2>Discovery Phase</h2><span class="border"></span>
+    <h2>Discovery Phase</h2>
   </div>
 
   <div class="user research">
@@ -292,6 +297,13 @@
     <a data-scroll="" href="https://www.figma.com/file/qHCrch2qWUU5xrb1MnclJD/wireframing-Copy?node-id=1627%3A2" class="button-hero-cta">View all Wireframes</a>
   </div>
 
+  <div class="Usability-Testing">
+    <h3>Usability Testing</h3>
+    <p>With the wireframe prototype, I had three in-person usability tests. Each user had three tasks that they needed to complete. i prepared the clickable low-fi prototypes(made in figma). Overall quality and ease of navigation throughout the whole
+      design,all of the participants were able to flow from one
+      task to the other effortlessly with very little trouble on completing the task flows, so no iterations were needed to be made.</p>
+  </div>
+
   <div class="developing-logo">
     <h3>Developing the logo</h3>
     <p> Next, i spent some time creating a brand for this app was a fun. I have sketched out some ideas of based on the insights that I got from previous research and brainstorm about the brand image.
@@ -326,7 +338,7 @@
   </div>
 
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
+  <button id="myBtn" title="Go to top" i class='fa fa-chevron-up'></button>
 
   <!--footer-->
   <footer>
@@ -354,6 +366,7 @@
       mainNav.classList.toggle('active');
     });
   </script>
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155353267-1"></script>
   <script>
@@ -362,10 +375,61 @@
     function gtag() {
       dataLayer.push(arguments);
     }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-155353267-1');
   </script>
+
+  <<!--Back to top-->
+    <script>
+      function scrollTo(element) {
+        window.scroll({
+          behavior: 'smooth',
+          left: 0,
+          top: element.offsetTop
+        });
+      }
+      document.getElementById("myBtn").addEventListener('click', () => {
+        scrollTo(document.getElementById("top"));
+      });
+    </script>
+
+
+    <!--chart-->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
 </body>
 
 </html>
