@@ -395,16 +395,16 @@
     <div class="Background">
       <h4>Let’s make something great together.</h4>
       <p class="footer-copy">I’m always up to chat about design! Feel free to reach out for collaborations or just a friendly hello👋</p><br>
-      <section id="footer-btn-container">
+      <article id="footer-btn-container">
         <br><a href="contact.html" target="_blank" class="btn light-wire content-box-narrow">Message Me</a>
-      </section>
+      </article>
       <a href="https://www.linkedin.com/in/kamala-prasai-3451531a0/" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="fab"></a>
       <a href="https://github.com/kamalaprasai" target="blank"><img src="images/github.png" alt="github" class="fab"></a>
       <a href="mailto:kamalaprasai73@gmail.com" target="blank"><img src="images/email-logo.png" alt="email" class="fab"></a>
 
-      <section class="copyright">
+      <article class="copyright">
         <p>Designed & Coded: Kamala Prasai 2019 </p>
-      </section>
+      </article>
     </div>
   </footer>
 
@@ -432,54 +432,54 @@
     gtag('config', 'UA-155353267-1');
   </script>
 
-  <<!--Back to top-->
-    <script>
-      function scrollTo(element) {
-        window.scroll({
-          behavior: 'smooth',
-          left: 0,
-          top: element.offsetTop
-        });
-      }
-      document.getElementById("myBtn").addEventListener('click', () => {
-        scrollTo(document.getElementById("top"));
+  <!--Back to top-->
+  <script>
+    function scrollTo(element) {
+      window.scroll({
+        behavior: 'smooth',
+        left: 0,
+        top: element.offsetTop
       });
-    </script>
+    }
+    document.getElementById("myBtn").addEventListener('click', () => {
+      scrollTo(document.getElementById("top"));
+    });
+  </script>
 
 
-    <!--chart-->
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+  <!--chart-->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1
       }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
+      if (n < 1) {
+        slideIndex = slides.length
       }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-    </script>
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
 
 </body>
 
