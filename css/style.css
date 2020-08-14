@@ -872,8 +872,7 @@ p.paragraph-medium-bold {
   #logo {
     margin-top: 1.2rem;
     display: inline;
-    margin-left: 3rem;
-    object-fit: contain;
+    margin-left: 5rem;
   }
 
   .navbar-toggle {
@@ -1037,6 +1036,10 @@ p.paragraph-medium-bold {
 
     .form-container {
       padding: 3rem 40rem 5rem;
+    }
+
+    #logo {
+      margin-left: 6rem;
     }
 
     /* Cirrus.html */
