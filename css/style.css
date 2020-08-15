@@ -208,14 +208,13 @@ ul {
 .blocjams, .cirrus, .busybus, .dog-mockup {
   height: auto;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .busybus {
   width: 50%;
   margin: 0 auto;
   display: block;
-  margin-bottom: 2rem;
 }
 
 h4 {
@@ -1003,14 +1002,10 @@ p.paragraph-medium-bold {
       width: 2%;
     }
 
-    .cirrus, .blocjams {
+    .cirrus, .blocjams, .busybus, .dog-mockup {
       width: 50%;
       margin-top: 2rem;
-    }
-
-    .busybus, .dog-mockup {
-      width: 50%;
-      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
 
     .busybus {
