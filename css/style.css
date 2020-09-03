@@ -781,7 +781,10 @@ p.paragraph-medium-bold {
 
 .style-guide img {
   margin-bottom: 20%;
-  margin-top: 3rem;
+}
+
+.style-guide p {
+  margin-bottom: 0rem;
 }
 
 .flow {
