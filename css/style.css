@@ -103,7 +103,6 @@ ul {
 .hero p {
   font-family: "Lora";
   text-align: center;
-  font-size: 1.8rem;
   line-height: 2.7rem;
   margin-top: 4rem;
   width: 89%;
@@ -128,7 +127,6 @@ ul {
 }
 
 .hero h1 {
-  font-style: italic;
   line-height: 140%;
   margin-left: 0.7%;
 }
@@ -176,7 +174,7 @@ ul {
   width: auto;
 }
 
-.button-cta {
+.button-cta, .button-hero-cta {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
@@ -191,18 +189,11 @@ ul {
 }
 
 .button-hero-cta {
-  color: #FFFFFF;
-  font-size: 16px;
-  font-weight: bold;
-  display: block;
-  background-color: #9B51E0;
-  font-family: "Roboto";
-  text-align: center;
-  border-radius: 10px;
-  width: 300px;
-  height: 60px;
-  padding: 2rem 4rem 2rem;
   margin: 0 auto;
+}
+
+.button-cta:hover, .button-hero-cta:hover {
+  background-color: #A876D7;
 }
 
 .blocjams, .cirrus, .busybus, .dog-mockup {
@@ -301,6 +292,14 @@ p.footer-copy {
   color: #000000;
 }
 
+.aboutme h4 {
+  margin-top: 1.5rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+
 /* Contact.html */
 /*form*/
 label {
@@ -383,9 +382,6 @@ textarea#styled {
 
 .buses img, .bus-sketch img {
   width: 100%;
-}
-
-.buses img {
   margin-top: 2rem;
 }
 
@@ -741,17 +737,18 @@ p.paragraph-medium-bold {
 }
 
 /* project2.html */
-.doggo {
-  width: 100%;
-  text-align: center;
-}
-
 .bestbuddy img {
   width: auto;
   margin: 0 auto;
   display: block;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.doggo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .bestbuddy p {
@@ -1027,8 +1024,6 @@ p.paragraph-medium-bold {
 
     .cirrus, .blocjams, .busybus, .dog-mockup {
       width: 50%;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
     }
 
     .busybus {
@@ -1141,9 +1136,15 @@ p.paragraph-medium-bold {
       font-size: 43px;
     }
 
+    .test1 {
+      margin-bottom: 6rem;
+    }
+
     /* project.page */
     .doggo {
-      width: 80%
+      display: block;
+      margin: 0 auto;
+      width: 70%;
     }
 
     .bestbuddy p {
